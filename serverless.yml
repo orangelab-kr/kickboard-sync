@@ -1,0 +1,27 @@
+service: 'serverless-template'
+
+provider:
+  name: aws
+  runtime: nodejs12.x
+  region: ap-northeast-2
+  stage: prod
+  lambdaHashingVersion: '20201221'
+  apiGateway:
+    shouldStartNameWithService: true
+
+plugins:
+  - serverless-webpack
+  - serverless-offline
+
+custom:
+  webpack:
+    includeModules: true
+  serverless-offline:
+    noPrependStageInUrl: true
+
+functions:
+  app:
+    handler: src/index.handler
+    events:
+      - http: 'ANY /'
+      - http: 'ANY /{proxy+}'
