@@ -1,4 +1,4 @@
-service: 'serverless-template'
+service: 'kickboard-death'
 
 provider:
   name: aws
@@ -6,12 +6,9 @@ provider:
   region: ap-northeast-2
   stage: prod
   lambdaHashingVersion: '20201221'
-  apiGateway:
-    shouldStartNameWithService: true
 
 plugins:
   - serverless-webpack
-  - serverless-offline
 
 custom:
   webpack:
@@ -23,5 +20,6 @@ functions:
   app:
     handler: src/index.handler
     events:
-      - http: 'ANY /'
-      - http: 'ANY /{proxy+}'
+      - schedule:
+          enabled: true
+          rate: cron(0,30 * * * ? *)
