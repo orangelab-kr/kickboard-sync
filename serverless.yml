@@ -1,4 +1,4 @@
-service: 'kickboard-death'
+service: 'kickboard-sync'
 
 provider:
   name: aws
@@ -13,8 +13,6 @@ plugins:
 custom:
   webpack:
     includeModules: true
-  serverless-offline:
-    noPrependStageInUrl: true
 
 functions:
   app:
