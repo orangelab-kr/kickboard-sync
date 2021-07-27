@@ -1,18 +1,23 @@
 service: 'kickboard-sync'
+useDotenv: false
 
 provider:
   name: aws
-  runtime: nodejs12.x
+  runtime: nodejs14.x
   region: ap-northeast-2
   stage: prod
   lambdaHashingVersion: '20201221'
 
 plugins:
   - serverless-webpack
+  - serverless-dotenv-plugin
 
 custom:
   webpack:
     includeModules: true
+    packager: 'yarn'
+    packagerOptions:
+      noFrozenLockfile: true
 
 functions:
   app:
@@ -20,4 +25,4 @@ functions:
     events:
       - schedule:
           enabled: true
-          rate: cron(0,30 * * * ? *)
+          rate: rate(30 minutes)
