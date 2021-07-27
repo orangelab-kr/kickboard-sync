@@ -9,6 +9,7 @@ import {
   logger,
   MongoDB,
 } from '.';
+import { Webhook } from './tools';
 
 export * from './models';
 export * from './tools';
@@ -75,6 +76,10 @@ export const handler: Handler = async (event, context) => {
         `[킥보드] ${displayName} 이미 존재하여 상태만 변경하였습니다. (${changed})`
       );
 
+      await Webhook.send(
+        `[파이어베이스 싱크] ${displayName} 이미 존재하여 상태만 변경하였습니다. (${changed})`
+      );
+
       kickboard.mode = mode;
       await kickboard.save();
       continue;
@@ -94,6 +99,9 @@ export const handler: Handler = async (event, context) => {
     });
 
     logger.info(`[킥보드] ${displayName} 킥보드를 생성하였습니다.`);
+    await Webhook.send(
+      `[파이어베이스 싱크] ${displayName} 킥보드를 생성하였습니다.`
+    );
   }
 
   const processTime = `${(Date.now() - startTime).toLocaleString()}ms`;
