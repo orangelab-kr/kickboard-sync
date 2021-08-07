@@ -8,6 +8,7 @@ export interface KickboardDoc extends Document {
   mode: KickboardMode;
   lost: KickboardLost | null;
   maxSpeed: number | null;
+  regionId: string;
   collect: KickboardCollect | null;
   status?: StatusDoc;
   helmetId?: string | null;

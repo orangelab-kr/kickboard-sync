@@ -77,11 +77,13 @@ export const handler: Handler = async (event, context) => {
           `[킥보드] ${displayName} 이미 존재하여 상태만 변경하였습니다. (${changed})`
         );
 
+        if (!kickboard.regionId) kickboard.regionId = regionId;
         kickboard.mode = mode;
         await kickboard.save();
         return;
       }
 
+      logger.info(`[킥보드] ${displayName} 킥보드를 생성하였습니다.`);
       await KickboardModel.create({
         kickboardId,
         kickboardCode,
@@ -95,7 +97,6 @@ export const handler: Handler = async (event, context) => {
         disconnectedAt: null,
       });
 
-      logger.info(`[킥보드] ${displayName} 킥보드를 생성하였습니다.`);
       await Webhook.send(
         `[파이어베이스 싱크] ${displayName} 킥보드를 생성하였습니다.`
       );

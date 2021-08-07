@@ -18,9 +18,9 @@
     "@babel/highlight" "^7.10.4"
 
 "@babel/helper-validator-identifier@^7.14.5":
-  version "7.14.8"
-  resolved "https://hikick-547032093617.d.codeartifact.ap-northeast-1.amazonaws.com:443/npm/hikick/@babel/helper-validator-identifier/-/helper-validator-identifier-7.14.8.tgz#32be33a756f29e278a0d644fa08a2c9e0f88a34c"
-  integrity sha512-ZGy6/XQjllhYQrNw/3zfWRwZCTVSiBLZ9DHVZxn9n2gip/7ab8mv2TWlKPIBk26RwedCBoWdjLmn+t9na2Gcow==
+  version "7.14.9"
+  resolved "https://hikick-547032093617.d.codeartifact.ap-northeast-1.amazonaws.com:443/npm/hikick/@babel/helper-validator-identifier/-/helper-validator-identifier-7.14.9.tgz#6654d171b2024f6d8ee151bf2509699919131d48"
+  integrity sha512-pQYxPY0UP6IHISRitNe8bsijHex4TWZXi2HwKVsjPiltzlhse2znVcm9Ace510VT1kxIHjGJCZZQBX2gJDbo0g==
 
 "@babel/highlight@^7.10.4":
   version "7.14.5"
@@ -30,6 +30,18 @@
     "@babel/helper-validator-identifier" "^7.14.5"
     chalk "^2.0.0"
     js-tokens "^4.0.0"
+
+"@cspotcode/source-map-consumer@0.8.0":
+  version "0.8.0"
+  resolved "https://hikick-547032093617.d.codeartifact.ap-northeast-1.amazonaws.com:443/npm/hikick/@cspotcode/source-map-consumer/-/source-map-consumer-0.8.0.tgz#33bf4b7b39c178821606f669bbc447a6a629786b"
+  integrity sha512-41qniHzTU8yAGbCp04ohlmSrZf8bkf/iJsl3V0dRGsQN/5GFfx+LbCSsCpp2gqrqjTVg/K6O8ycoV35JIwAzAg==
+
+"@cspotcode/source-map-support@0.6.1":
+  version "0.6.1"
+  resolved "https://hikick-547032093617.d.codeartifact.ap-northeast-1.amazonaws.com:443/npm/hikick/@cspotcode/source-map-support/-/source-map-support-0.6.1.tgz#118511f316e2e87ee4294761868e254d3da47960"
+  integrity sha512-DX3Z+T5dt1ockmPdobJS/FAsQPW4V4SrWEhD2iYQT2Cb2tQsiMnYxrcUH9By/Z3B+v0S5LMBkQtV/XOBbpLEOg==
+  dependencies:
+    "@cspotcode/source-map-consumer" "0.8.0"
 
 "@dabh/diagnostics@^2.0.2":
   version "2.0.2"
@@ -55,41 +67,41 @@
     minimatch "^3.0.4"
     strip-json-comments "^3.1.1"
 
-"@firebase/app-types@0.6.2":
-  version "0.6.2"
-  resolved "https://hikick-547032093617.d.codeartifact.ap-northeast-1.amazonaws.com:443/npm/hikick/@firebase/app-types/-/app-types-0.6.2.tgz#8578cb1061a83ced4570188be9e225d54e0f27fb"
-  integrity sha512-2VXvq/K+n8XMdM4L2xy5bYp2ZXMawJXluUIDzUBvMthVR+lhxK4pfFiqr1mmDbv9ydXvEAuFsD+6DpcZuJcSSw==
+"@firebase/app-types@0.6.3":
+  version "0.6.3"
+  resolved "https://hikick-547032093617.d.codeartifact.ap-northeast-1.amazonaws.com:443/npm/hikick/@firebase/app-types/-/app-types-0.6.3.tgz#3f10514786aad846d74cd63cb693556309918f4b"
+  integrity sha512-/M13DPPati7FQHEQ9Minjk1HGLm/4K4gs9bR4rzLCWJg64yGtVC0zNg9gDpkw9yc2cvol/mNFxqTtd4geGrwdw==
 
 "@firebase/auth-interop-types@0.1.6":
   version "0.1.6"
   resolved "https://hikick-547032093617.d.codeartifact.ap-northeast-1.amazonaws.com:443/npm/hikick/@firebase/auth-interop-types/-/auth-interop-types-0.1.6.tgz#5ce13fc1c527ad36f1bb1322c4492680a6cf4964"
   integrity sha512-etIi92fW3CctsmR9e3sYM3Uqnoq861M0Id9mdOPF6PWIg38BXL5k4upCNBggGUpLIS0H1grMOvy/wn1xymwe2g==
 
-"@firebase/component@0.5.4":
-  version "0.5.4"
-  resolved "https://hikick-547032093617.d.codeartifact.ap-northeast-1.amazonaws.com:443/npm/hikick/@firebase/component/-/component-0.5.4.tgz#546c3e9c98c9990fb6af7ea9f0b4997312aacc19"
-  integrity sha512-KoLDPTsvxWr6FT9kn/snffJItaWXZLHLJlZVKiiw+flKE6MVA8Eec+ctvM2zcsMZzC2Z47gFnVqywfBlOevmpQ==
+"@firebase/component@0.5.5":
+  version "0.5.5"
+  resolved "https://hikick-547032093617.d.codeartifact.ap-northeast-1.amazonaws.com:443/npm/hikick/@firebase/component/-/component-0.5.5.tgz#849ccf7cbf0398a43058f274ffcd43620ae9521f"
+  integrity sha512-L41SdS/4a164jx2iGfakJgaBUPPBI3DI+RrUlmh3oHSUljTeCwfj/Nhcv3S7e2lyXsGFJtAyepfPUx4IQ05crw==
   dependencies:
-    "@firebase/util" "1.1.0"
+    "@firebase/util" "1.2.0"
     tslib "^2.1.0"
 
-"@firebase/database-types@0.7.2", "@firebase/database-types@^0.7.2":
-  version "0.7.2"
-  resolved "https://hikick-547032093617.d.codeartifact.ap-northeast-1.amazonaws.com:443/npm/hikick/@firebase/database-types/-/database-types-0.7.2.tgz#449c4b36ec59a1ad9089797b540e2ba1c0d4fcbf"
-  integrity sha512-cdAd/dgwvC0r3oLEDUR+ULs1vBsEvy0b27nlzKhU6LQgm9fCDzgaH9nFGv8x+S9dly4B0egAXkONkVoWcOAisg==
+"@firebase/database-types@0.7.3", "@firebase/database-types@^0.7.2":
+  version "0.7.3"
+  resolved "https://hikick-547032093617.d.codeartifact.ap-northeast-1.amazonaws.com:443/npm/hikick/@firebase/database-types/-/database-types-0.7.3.tgz#819f16dd4c767c864b460004458620f265a3f735"
+  integrity sha512-dSOJmhKQ0nL8O4EQMRNGpSExWCXeHtH57gGg0BfNAdWcKhC8/4Y+qfKLfWXzyHvrSecpLmO0SmAi/iK2D5fp5A==
   dependencies:
-    "@firebase/app-types" "0.6.2"
+    "@firebase/app-types" "0.6.3"
 
 "@firebase/database@^0.10.0":
-  version "0.10.8"
-  resolved "https://hikick-547032093617.d.codeartifact.ap-northeast-1.amazonaws.com:443/npm/hikick/@firebase/database/-/database-0.10.8.tgz#819713c87aab5834dbd8856f0ad19741f7abfdb6"
-  integrity sha512-LCjQ6ELOm9TrENV0FuH3grkLTT0gPjBQC7K4dK2ggw39hSzmw09/WKVCmz0mCZtDDfxCiv+5Q6Md/w3zz6awEw==
+  version "0.10.9"
+  resolved "https://hikick-547032093617.d.codeartifact.ap-northeast-1.amazonaws.com:443/npm/hikick/@firebase/database/-/database-0.10.9.tgz#79f7b03cbe8a127dddfb7ea7748a3e923990f046"
+  integrity sha512-Jxi9SiE4cNOftO9YKlG71ccyWFw4kSM9AG/xYu6vWXUGBr39Uw1TvYougANOcU21Q0TP4J08VPGnOnpXk/FGbQ==
   dependencies:
     "@firebase/auth-interop-types" "0.1.6"
-    "@firebase/component" "0.5.4"
-    "@firebase/database-types" "0.7.2"
+    "@firebase/component" "0.5.5"
+    "@firebase/database-types" "0.7.3"
     "@firebase/logger" "0.2.6"
-    "@firebase/util" "1.1.0"
+    "@firebase/util" "1.2.0"
     faye-websocket "0.11.3"
     tslib "^2.1.0"
 
@@ -98,10 +110,10 @@
   resolved "https://hikick-547032093617.d.codeartifact.ap-northeast-1.amazonaws.com:443/npm/hikick/@firebase/logger/-/logger-0.2.6.tgz#3aa2ca4fe10327cabf7808bd3994e88db26d7989"
   integrity sha512-KIxcUvW/cRGWlzK9Vd2KB864HlUnCfdTH0taHE0sXW5Xl7+W68suaeau1oKNEqmc3l45azkd4NzXTCWZRZdXrw==
 
-"@firebase/util@1.1.0":
-  version "1.1.0"
-  resolved "https://hikick-547032093617.d.codeartifact.ap-northeast-1.amazonaws.com:443/npm/hikick/@firebase/util/-/util-1.1.0.tgz#add2d57d0b2307a932520abdee303b66be0ac8b0"
-  integrity sha512-lfuSASuPKNdfebuFR8rjFamMQUPH9iiZHcKS755Rkm/5gRT0qC7BMhCh3ZkHf7NVbplzIc/GhmX2jM+igDRCag==
+"@firebase/util@1.2.0":
+  version "1.2.0"
+  resolved "https://hikick-547032093617.d.codeartifact.ap-northeast-1.amazonaws.com:443/npm/hikick/@firebase/util/-/util-1.2.0.tgz#4d4e419bf8c9bc1bc51308d1953dc2e4353c0770"
+  integrity sha512-8W9TTGImXr9cu+oyjBJ7yjoEd/IVAv0pBZA4c1uIuKrpGZi2ee38m+8xlZOBRmsAaOU/tR9DXz1WF/oeM6Fb7Q==
   dependencies:
     tslib "^2.1.0"
 
@@ -121,9 +133,9 @@
     teeny-request "^7.0.0"
 
 "@google-cloud/firestore@^4.5.0":
-  version "4.13.2"
-  resolved "https://hikick-547032093617.d.codeartifact.ap-northeast-1.amazonaws.com:443/npm/hikick/@google-cloud/firestore/-/firestore-4.13.2.tgz#579301cbb956fb355bd1844743029cfcd83e9a39"
-  integrity sha512-zHxfZAeMtPBJYK1sLRPY/BBmML9ic4HreJiEaRZxBsDynFM9nljuP10gIrVca8/Bcl8Kv8vUz9Aa11Gfdl34iA==
+  version "4.14.1"
+  resolved "https://hikick-547032093617.d.codeartifact.ap-northeast-1.amazonaws.com:443/npm/hikick/@google-cloud/firestore/-/firestore-4.14.1.tgz#c2692f4515d463bcf994981fad361a4690ecd6f3"
+  integrity sha512-ecPxrwsk3IWfyILHhVtRJXFcn+CFnlYRbnM6vwS+eEwHAfSFoy4tNXlsvh7c4YihuojAkvgl4+iBxPMwy5X09A==
   dependencies:
     fast-deep-equal "^3.1.1"
     functional-red-black-tree "^1.0.1"
@@ -149,9 +161,9 @@
   integrity sha512-d4VSA86eL/AFTe5xtyZX+ePUjE8dIFu2T8zmdeNBSa5/kNgXPCx/o/wbFNHAGLJdGnk1vddRuMESD9HbOC8irw==
 
 "@google-cloud/storage@^5.3.0":
-  version "5.11.0"
-  resolved "https://hikick-547032093617.d.codeartifact.ap-northeast-1.amazonaws.com:443/npm/hikick/@google-cloud/storage/-/storage-5.11.0.tgz#f2414358f093034410bb03410176a5dcabc7bdf8"
-  integrity sha512-UgdAwBelXpQhubYOHw0U/hDxCXIXFT2TqDc0JWUxtg+BeePZC0ohoFM/b/tJffE28AZW0urTQax5xbRNoDA1Sw==
+  version "5.12.0"
+  resolved "https://hikick-547032093617.d.codeartifact.ap-northeast-1.amazonaws.com:443/npm/hikick/@google-cloud/storage/-/storage-5.12.0.tgz#e855c96447819d3c1a0e1b00c437e86e9320d765"
+  integrity sha512-K4BwvvIzkGu0DWKoo7IWqUdrLYcauAijedqiWkeBEpJo9/7woNbqyDCZsKjdaCwt49XiPZXWs1hk/k6LZSxDmw==
   dependencies:
     "@google-cloud/common" "^3.7.0"
     "@google-cloud/paginator" "^3.0.0"
@@ -322,10 +334,10 @@
     node-fetch "^2.6.0"
     shortid "^2.2.14"
 
-"@serverless/components@^3.14.0":
-  version "3.14.0"
-  resolved "https://hikick-547032093617.d.codeartifact.ap-northeast-1.amazonaws.com:443/npm/hikick/@serverless/components/-/components-3.14.0.tgz#11a9885e9bc29ad515cb5d4e25120df0d9099cd6"
-  integrity sha512-Ssuu+OcyWvisGIMZD4Lr9Uj20Ndgb9a8Z/Jw4VbhFS+grc89uK7vZR3pS9I4LTfTUKH4HUbMJXxDndNEFGgLAA==
+"@serverless/components@^3.14.2":
+  version "3.14.2"
+  resolved "https://hikick-547032093617.d.codeartifact.ap-northeast-1.amazonaws.com:443/npm/hikick/@serverless/components/-/components-3.14.2.tgz#c4b69f90ed441a1432afb7557cea3aa827192a30"
+  integrity sha512-mizSDUxNKT+V1hx5edZFFbMBvtWY8FkponU3seWpmkkbv1FjNPpa2wURec89T5m4WadYJDQMCpKKCwYD4DOSow==
   dependencies:
     "@serverless/platform-client" "^4.2.2"
     "@serverless/platform-client-china" "^2.2.0"
@@ -404,9 +416,9 @@
     lodash "^4.17.11"
 
 "@serverless/platform-client-china@^2.2.0":
-  version "2.2.0"
-  resolved "https://hikick-547032093617.d.codeartifact.ap-northeast-1.amazonaws.com:443/npm/hikick/@serverless/platform-client-china/-/platform-client-china-2.2.0.tgz#8e609fb949d354f43ebcc803af61e1190ca08f6c"
-  integrity sha512-cNEMjQ826PfZOYSY00eIOSFZEdmy4QU4L6wU9rzhpIhURRsoULnPE5tfYAs2yTYPBRSgV9o3eqLmh5+pOcVbLw==
+  version "2.2.1"
+  resolved "https://hikick-547032093617.d.codeartifact.ap-northeast-1.amazonaws.com:443/npm/hikick/@serverless/platform-client-china/-/platform-client-china-2.2.1.tgz#1eb5faf9af4ccd9237d3fbb49dc5f66f352819bb"
+  integrity sha512-S1q6LOxpgMc872s/pXZwwat4Mr5DE8IilqKcgEcaGhydRFp85QeOqtFtunTzQ0n9Uo7OCfuIwL4GUC/i093pWA==
   dependencies:
     "@serverless/utils-china" "^1.1.4"
     adm-zip "^0.5.1"
@@ -424,26 +436,26 @@
     urlencode "^1.1.0"
     ws "^7.3.1"
 
-"@serverless/platform-client@^4.2.2", "@serverless/platform-client@^4.2.3", "@serverless/platform-client@^4.2.5":
-  version "4.2.5"
-  resolved "https://hikick-547032093617.d.codeartifact.ap-northeast-1.amazonaws.com:443/npm/hikick/@serverless/platform-client/-/platform-client-4.2.5.tgz#2bc7eaabb2a5030eae11ab89f370c74504207047"
-  integrity sha512-PqQptakqHs6DHVY3fCqyMqdaFSKgehvUGrobWBUhcsmovnGY1Fzw9s3uqnqt2jmaCICNzPn/hPN+P+JbsG7itA==
+"@serverless/platform-client@^4.2.2", "@serverless/platform-client@^4.2.3", "@serverless/platform-client@^4.2.6":
+  version "4.2.6"
+  resolved "https://hikick-547032093617.d.codeartifact.ap-northeast-1.amazonaws.com:443/npm/hikick/@serverless/platform-client/-/platform-client-4.2.6.tgz#bc37bbab64dd39ef8cddcf9b13ac849e4244bfdf"
+  integrity sha512-TVwlUvYnNjotd4010I9Vh0Dr0c2XByaUTEjpxLJm/Ti51Ka6vLIJ44JxuNZ6TmvkRh66yFZbaZUsVv6W4wNUVQ==
   dependencies:
-    adm-zip "^0.4.13"
+    adm-zip "^0.5.5"
     archiver "^5.3.0"
     axios "^0.21.1"
-    fast-glob "^3.2.5"
+    fast-glob "^3.2.7"
     https-proxy-agent "^5.0.0"
     ignore "^5.1.8"
     isomorphic-ws "^4.0.1"
-    js-yaml "^3.13.1"
+    js-yaml "^3.14.1"
     jwt-decode "^2.2.0"
     minimatch "^3.0.4"
     querystring "^0.2.1"
     run-parallel-limit "^1.1.0"
     throat "^5.0.0"
     traverse "^0.6.6"
-    ws "^7.4.6"
+    ws "^7.5.3"
 
 "@serverless/template@^1.1.3":
   version "1.1.4"
@@ -576,10 +588,10 @@
     request "^2.88.0"
     request-promise-native "^1.0.8"
 
-"@tokenizer/token@^0.1.1":
-  version "0.1.1"
-  resolved "https://hikick-547032093617.d.codeartifact.ap-northeast-1.amazonaws.com:443/npm/hikick/@tokenizer/token/-/token-0.1.1.tgz#f0d92c12f87079ddfd1b29f614758b9696bc29e3"
-  integrity sha512-XO6INPbZCxdprl+9qa/AAbFFOMzzwqYxpjPgLICrMD6C2FCw6qfJOPcBk6JqqPLSaZ/Qx87qn4rpPmPMwaAK6w==
+"@tokenizer/token@^0.3.0":
+  version "0.3.0"
+  resolved "https://hikick-547032093617.d.codeartifact.ap-northeast-1.amazonaws.com:443/npm/hikick/@tokenizer/token/-/token-0.3.0.tgz#fe98a93fe789247e998c75e74e9c7c63217aa276"
+  integrity sha512-OvjF+z51L3ov0OyAU0duzsYuvO01PH7x4t6DJx+guahgTnBHkhJdG7soQeTSFLWN3efnHyibZ4Z8l2EuWwJN3A==
 
 "@tootallnate/once@1":
   version "1.1.2"
@@ -601,7 +613,7 @@
   resolved "https://hikick-547032093617.d.codeartifact.ap-northeast-1.amazonaws.com:443/npm/hikick/@tsconfig/node14/-/node14-1.0.1.tgz#95f2d167ffb9b8d2068b0b235302fafd4df711f2"
   integrity sha512-509r2+yARFfHHE7T6Puu2jjkoycftovhXRqW328PDXTVGKihlb1P8Z9mMZH04ebyajfRY7dedfGynlrFHJUQCg==
 
-"@tsconfig/node16@^1.0.1":
+"@tsconfig/node16@^1.0.2":
   version "1.0.2"
   resolved "https://hikick-547032093617.d.codeartifact.ap-northeast-1.amazonaws.com:443/npm/hikick/@tsconfig/node16/-/node16-1.0.2.tgz#423c77877d0569db20e1fc80885ac4118314010e"
   integrity sha512-eZxlbI8GZscaGS7kkc/trHTT5xgrjH3/1n2JDwusC9iahPKWMRvRjJSAN5mCXviuTGQ/lHnhvv8Q1YTpnfz9gA==
@@ -620,9 +632,9 @@
     "@types/node" "*"
 
 "@types/bson@*":
-  version "4.0.4"
-  resolved "https://hikick-547032093617.d.codeartifact.ap-northeast-1.amazonaws.com:443/npm/hikick/@types/bson/-/bson-4.0.4.tgz#79d2d26e81070044db2a1a8b2cc2f673c840e1e5"
-  integrity sha512-awqorHvQS0DqxkHQ/FxcPX9E+H7Du51Qw/2F+5TBMSaE3G0hm+8D3eXJ6MAzFw75nE8V7xF0QvzUSdxIjJb/GA==
+  version "4.0.5"
+  resolved "https://hikick-547032093617.d.codeartifact.ap-northeast-1.amazonaws.com:443/npm/hikick/@types/bson/-/bson-4.0.5.tgz#9e0e1d1a6f8866483f96868a9b33bc804926b1fc"
+  integrity sha512-vVLwMUqhYJSQ/WKcE60eFqcyuWse5fGH+NMAXHuKrUAPoryq3ATxk5o4bgYNtg5aOM4APVg7Hnb3ASqUYG0PKg==
   dependencies:
     "@types/node" "*"
 
@@ -716,9 +728,9 @@
   integrity sha512-SZs7ekbP8CN0txVG2xVRH6EgKmEm31BOxA07vkFaETzZz1xh+cbt8BcI0slpymvwhx5dlFnQG2rTlPVQn+iRPQ==
 
 "@types/json-schema@*", "@types/json-schema@^7.0.7", "@types/json-schema@^7.0.8":
-  version "7.0.8"
-  resolved "https://hikick-547032093617.d.codeartifact.ap-northeast-1.amazonaws.com:443/npm/hikick/@types/json-schema/-/json-schema-7.0.8.tgz#edf1bf1dbf4e04413ca8e5b17b3b7d7d54b59818"
-  integrity sha512-YSBPTLTVm2e2OoQIDYx8HaeWJ5tTToLH67kXR7zYNGupXMEHa2++G8k+DczX2cFVgalypqtyZIcU19AFcmOpmg==
+  version "7.0.9"
+  resolved "https://hikick-547032093617.d.codeartifact.ap-northeast-1.amazonaws.com:443/npm/hikick/@types/json-schema/-/json-schema-7.0.9.tgz#97edc9037ea0c38585320b28964dde3b39e4660d"
+  integrity sha512-qcUXuemtEu+E5wZSJHNxUXeCZhAfXKQ41D+duX+VYPde7xyEVZci+/oXKJL13tnRs9lR2pr4fod59GT6/X1/yQ==
 
 "@types/keyv@*":
   version "3.1.2"
@@ -728,9 +740,9 @@
     "@types/node" "*"
 
 "@types/lodash@^4.14.123":
-  version "4.14.171"
-  resolved "https://hikick-547032093617.d.codeartifact.ap-northeast-1.amazonaws.com:443/npm/hikick/@types/lodash/-/lodash-4.14.171.tgz#f01b3a5fe3499e34b622c362a46a609fdb23573b"
-  integrity sha512-7eQ2xYLLI/LsicL2nejW9Wyko3lcpN6O/z0ZLHrEQsg280zIdCv1t/0m6UtBjUHokCGBQ3gYTbHzDkZ1xOBwwg==
+  version "4.14.172"
+  resolved "https://hikick-547032093617.d.codeartifact.ap-northeast-1.amazonaws.com:443/npm/hikick/@types/lodash/-/lodash-4.14.172.tgz#aad774c28e7bfd7a67de25408e03ee5a8c3d028a"
+  integrity sha512-/BHF5HAx3em7/KkzVKm3LrsD6HZAXuXO1AJZQ3cRRBZj4oHZDviWPYu0aEplAqDFNHZPW6d3G7KN+ONcCCC7pw==
 
 "@types/long@^4.0.0", "@types/long@^4.0.1":
   version "4.0.1"
@@ -750,15 +762,10 @@
     "@types/bson" "*"
     "@types/node" "*"
 
-"@types/node@*", "@types/node@>=12.0.0", "@types/node@>=12.12.47", "@types/node@>=13.7.0", "@types/node@^16.4.3":
-  version "16.4.3"
-  resolved "https://hikick-547032093617.d.codeartifact.ap-northeast-1.amazonaws.com:443/npm/hikick/@types/node/-/node-16.4.3.tgz#c01c1a215721f6dec71b47d88b4687463601ba48"
-  integrity sha512-GKM4FLMkWDc0sfx7tXqPWkM6NBow1kge0fgQh0bOnlqo4iT1kvTvMEKE0c1RtUGnbLlGRXiAA8SumE//90uKAg==
-
-"@types/node@14.x || 15.x":
-  version "15.14.3"
-  resolved "https://hikick-547032093617.d.codeartifact.ap-northeast-1.amazonaws.com:443/npm/hikick/@types/node/-/node-15.14.3.tgz#330763b973d0acacb7fdccc7594e1fb281ed1b1c"
-  integrity sha512-gliNP92vLGGha1nioYHIIT2WrZ450sxpRgyPCEyog2hMVi6LEbhY/Pkj+EDiGWrCXntZ9lrnE2+lTIlyYtaxCg==
+"@types/node@*", "@types/node@>=12.0.0", "@types/node@>=12.12.47", "@types/node@>=13.7.0", "@types/node@^16.4.13":
+  version "16.4.13"
+  resolved "https://hikick-547032093617.d.codeartifact.ap-northeast-1.amazonaws.com:443/npm/hikick/@types/node/-/node-16.4.13.tgz#7dfd9c14661edc65cccd43a29eb454174642370d"
+  integrity sha512-bLL69sKtd25w7p1nvg9pigE4gtKVpGTPojBFLMkGHXuUgap2sLqQt2qUnqmVCDfzGUL0DRNZP+1prIZJbMeAXg==
 
 "@types/prettier@^2.3.2":
   version "2.3.2"
@@ -783,9 +790,9 @@
     "@types/request" "*"
 
 "@types/request@*", "@types/request@^2.48.3":
-  version "2.48.6"
-  resolved "https://hikick-547032093617.d.codeartifact.ap-northeast-1.amazonaws.com:443/npm/hikick/@types/request/-/request-2.48.6.tgz#2300e7fc443108f79efa90e3bdf34c6d60fa89d8"
-  integrity sha512-vrZaV3Ij7j/l/3hz6OttZFtpRCu7zlq7XgkYHJP6FwVEAZkGQ095WqyJV08/GlW9eyXKVcp/xmtruHm8eHpw1g==
+  version "2.48.7"
+  resolved "https://hikick-547032093617.d.codeartifact.ap-northeast-1.amazonaws.com:443/npm/hikick/@types/request/-/request-2.48.7.tgz#a962d11a26e0d71d9a9913d96bb806dc4d4c2f19"
+  integrity sha512-GWP9AZW7foLd4YQxyFZDBepl0lPsWLMEXDZUjQ/c1gqVPDPECrRZyEzuhJdnPWioFCq3Tv0qoGpMD6U+ygd4ZA==
   dependencies:
     "@types/caseless" "*"
     "@types/node" "*"
@@ -807,10 +814,10 @@
     "@types/mime" "^1"
     "@types/node" "*"
 
-"@types/serverless@^1.78.32":
-  version "1.78.32"
-  resolved "https://hikick-547032093617.d.codeartifact.ap-northeast-1.amazonaws.com:443/npm/hikick/@types/serverless/-/serverless-1.78.32.tgz#69852088986907b7a309d17d1e39bb8f38f29230"
-  integrity sha512-RyRXBaokE4irC3FGtasDigY03+jaZ3KJGckvNY/gowUjdVAAqKR7NnTu4f/Tu/Imv6ffu8/TuV2VoGvCQQy7Eg==
+"@types/serverless@^1.78.33":
+  version "1.78.33"
+  resolved "https://hikick-547032093617.d.codeartifact.ap-northeast-1.amazonaws.com:443/npm/hikick/@types/serverless/-/serverless-1.78.33.tgz#e5c3ee7d8e95a363c9654b4087178f70931ffb6c"
+  integrity sha512-Mm9taQfb9gyjB4Xu+D0GquHoxvpMf1FWul+J+SrGoA6gjPYawMR0BG6Z+qc7Z+f0/+NuDxpA6VQdQV8beL5hwQ==
 
 "@types/source-list-map@*":
   version "0.1.2"
@@ -842,9 +849,9 @@
     "@types/webpack" "^4"
 
 "@types/webpack-sources@*":
-  version "2.1.1"
-  resolved "https://hikick-547032093617.d.codeartifact.ap-northeast-1.amazonaws.com:443/npm/hikick/@types/webpack-sources/-/webpack-sources-2.1.1.tgz#6af17e3a3ded71eec2b98008d7c12f498a0a4506"
-  integrity sha512-MjM1R6iuw8XaVbtkCBz0N349cyqBjJHCbQiOeppe3VBeFvxqs74RKHAVt9LkxTnUWc7YLZOEsUfPUnmK6SBPKQ==
+  version "3.2.0"
+  resolved "https://hikick-547032093617.d.codeartifact.ap-northeast-1.amazonaws.com:443/npm/hikick/@types/webpack-sources/-/webpack-sources-3.2.0.tgz#16d759ba096c289034b26553d2df1bf45248d38b"
+  integrity sha512-Ft7YH3lEVRQ6ls8k4Ff1oB4jN6oy/XmU6tQISKdhfh+1mR+viZFphS6WL0IrtDOzvefmJg5a0s7ZQoRXwqTEFg==
   dependencies:
     "@types/node" "*"
     "@types/source-list-map" "*"
@@ -862,73 +869,73 @@
     anymatch "^3.0.0"
     source-map "^0.6.0"
 
-"@typescript-eslint/eslint-plugin@^4.28.5":
-  version "4.28.5"
-  resolved "https://hikick-547032093617.d.codeartifact.ap-northeast-1.amazonaws.com:443/npm/hikick/@typescript-eslint/eslint-plugin/-/eslint-plugin-4.28.5.tgz#8197f1473e7da8218c6a37ff308d695707835684"
-  integrity sha512-m31cPEnbuCqXtEZQJOXAHsHvtoDi9OVaeL5wZnO2KZTnkvELk+u6J6jHg+NzvWQxk+87Zjbc4lJS4NHmgImz6Q==
+"@typescript-eslint/eslint-plugin@^4.29.0":
+  version "4.29.0"
+  resolved "https://hikick-547032093617.d.codeartifact.ap-northeast-1.amazonaws.com:443/npm/hikick/@typescript-eslint/eslint-plugin/-/eslint-plugin-4.29.0.tgz#b866c9cd193bfaba5e89bade0015629ebeb27996"
+  integrity sha512-eiREtqWRZ8aVJcNru7cT/AMVnYd9a2UHsfZT8MR1dW3UUEg6jDv9EQ9Cq4CUPZesyQ58YUpoAADGv71jY8RwgA==
   dependencies:
-    "@typescript-eslint/experimental-utils" "4.28.5"
-    "@typescript-eslint/scope-manager" "4.28.5"
+    "@typescript-eslint/experimental-utils" "4.29.0"
+    "@typescript-eslint/scope-manager" "4.29.0"
     debug "^4.3.1"
     functional-red-black-tree "^1.0.1"
     regexpp "^3.1.0"
     semver "^7.3.5"
     tsutils "^3.21.0"
 
-"@typescript-eslint/experimental-utils@4.28.5":
-  version "4.28.5"
-  resolved "https://hikick-547032093617.d.codeartifact.ap-northeast-1.amazonaws.com:443/npm/hikick/@typescript-eslint/experimental-utils/-/experimental-utils-4.28.5.tgz#66c28bef115b417cf9d80812a713e0e46bb42a64"
-  integrity sha512-bGPLCOJAa+j49hsynTaAtQIWg6uZd8VLiPcyDe4QPULsvQwLHGLSGKKcBN8/lBxIX14F74UEMK2zNDI8r0okwA==
+"@typescript-eslint/experimental-utils@4.29.0":
+  version "4.29.0"
+  resolved "https://hikick-547032093617.d.codeartifact.ap-northeast-1.amazonaws.com:443/npm/hikick/@typescript-eslint/experimental-utils/-/experimental-utils-4.29.0.tgz#19b1417602d0e1ef325b3312ee95f61220542df5"
+  integrity sha512-FpNVKykfeaIxlArLUP/yQfv/5/3rhl1ov6RWgud4OgbqWLkEq7lqgQU9iiavZRzpzCRQV4XddyFz3wFXdkiX9w==
   dependencies:
     "@types/json-schema" "^7.0.7"
-    "@typescript-eslint/scope-manager" "4.28.5"
-    "@typescript-eslint/types" "4.28.5"
-    "@typescript-eslint/typescript-estree" "4.28.5"
+    "@typescript-eslint/scope-manager" "4.29.0"
+    "@typescript-eslint/types" "4.29.0"
+    "@typescript-eslint/typescript-estree" "4.29.0"
     eslint-scope "^5.1.1"
     eslint-utils "^3.0.0"
 
-"@typescript-eslint/parser@^4.28.5":
-  version "4.28.5"
-  resolved "https://hikick-547032093617.d.codeartifact.ap-northeast-1.amazonaws.com:443/npm/hikick/@typescript-eslint/parser/-/parser-4.28.5.tgz#9c971668f86d1b5c552266c47788a87488a47d1c"
-  integrity sha512-NPCOGhTnkXGMqTznqgVbA5LqVsnw+i3+XA1UKLnAb+MG1Y1rP4ZSK9GX0kJBmAZTMIktf+dTwXToT6kFwyimbw==
+"@typescript-eslint/parser@^4.29.0":
+  version "4.29.0"
+  resolved "https://hikick-547032093617.d.codeartifact.ap-northeast-1.amazonaws.com:443/npm/hikick/@typescript-eslint/parser/-/parser-4.29.0.tgz#e5367ca3c63636bb5d8e0748fcbab7a4f4a04289"
+  integrity sha512-+92YRNHFdXgq+GhWQPT2bmjX09X7EH36JfgN2/4wmhtwV/HPxozpCNst8jrWcngLtEVd/4zAwA6BKojAlf+YqA==
   dependencies:
-    "@typescript-eslint/scope-manager" "4.28.5"
-    "@typescript-eslint/types" "4.28.5"
-    "@typescript-eslint/typescript-estree" "4.28.5"
+    "@typescript-eslint/scope-manager" "4.29.0"
+    "@typescript-eslint/types" "4.29.0"
+    "@typescript-eslint/typescript-estree" "4.29.0"
     debug "^4.3.1"
 
-"@typescript-eslint/scope-manager@4.28.5":
-  version "4.28.5"
-  resolved "https://hikick-547032093617.d.codeartifact.ap-northeast-1.amazonaws.com:443/npm/hikick/@typescript-eslint/scope-manager/-/scope-manager-4.28.5.tgz#3a1b70c50c1535ac33322786ea99ebe403d3b923"
-  integrity sha512-PHLq6n9nTMrLYcVcIZ7v0VY1X7dK309NM8ya9oL/yG8syFINIMHxyr2GzGoBYUdv3NUfCOqtuqps0ZmcgnZTfQ==
+"@typescript-eslint/scope-manager@4.29.0":
+  version "4.29.0"
+  resolved "https://hikick-547032093617.d.codeartifact.ap-northeast-1.amazonaws.com:443/npm/hikick/@typescript-eslint/scope-manager/-/scope-manager-4.29.0.tgz#cf5474f87321bedf416ef65839b693bddd838599"
+  integrity sha512-HPq7XAaDMM3DpmuijxLV9Io8/6pQnliiXMQUcAdjpJJSR+fdmbD/zHCd7hMkjJn04UQtCQBtshgxClzg6NIS2w==
   dependencies:
-    "@typescript-eslint/types" "4.28.5"
-    "@typescript-eslint/visitor-keys" "4.28.5"
+    "@typescript-eslint/types" "4.29.0"
+    "@typescript-eslint/visitor-keys" "4.29.0"
 
-"@typescript-eslint/types@4.28.5":
-  version "4.28.5"
-  resolved "https://hikick-547032093617.d.codeartifact.ap-northeast-1.amazonaws.com:443/npm/hikick/@typescript-eslint/types/-/types-4.28.5.tgz#d33edf8e429f0c0930a7c3d44e9b010354c422e9"
-  integrity sha512-MruOu4ZaDOLOhw4f/6iudyks/obuvvZUAHBDSW80Trnc5+ovmViLT2ZMDXhUV66ozcl6z0LJfKs1Usldgi/WCA==
+"@typescript-eslint/types@4.29.0":
+  version "4.29.0"
+  resolved "https://hikick-547032093617.d.codeartifact.ap-northeast-1.amazonaws.com:443/npm/hikick/@typescript-eslint/types/-/types-4.29.0.tgz#c8f1a1e4441ea4aca9b3109241adbc145f7f8a4e"
+  integrity sha512-2YJM6XfWfi8pgU2HRhTp7WgRw78TCRO3dOmSpAvIQ8MOv4B46JD2chnhpNT7Jq8j0APlIbzO1Bach734xxUl4A==
 
-"@typescript-eslint/typescript-estree@4.28.5":
-  version "4.28.5"
-  resolved "https://hikick-547032093617.d.codeartifact.ap-northeast-1.amazonaws.com:443/npm/hikick/@typescript-eslint/typescript-estree/-/typescript-estree-4.28.5.tgz#4906d343de693cf3d8dcc301383ed638e0441cd1"
-  integrity sha512-FzJUKsBX8poCCdve7iV7ShirP8V+ys2t1fvamVeD1rWpiAnIm550a+BX/fmTHrjEpQJ7ZAn+Z7ZZwJjytk9rZw==
+"@typescript-eslint/typescript-estree@4.29.0":
+  version "4.29.0"
+  resolved "https://hikick-547032093617.d.codeartifact.ap-northeast-1.amazonaws.com:443/npm/hikick/@typescript-eslint/typescript-estree/-/typescript-estree-4.29.0.tgz#af7ab547757b86c91bfdbc54ff86845410856256"
+  integrity sha512-8ZpNHDIOyqzzgZrQW9+xQ4k5hM62Xy2R4RPO3DQxMc5Rq5QkCdSpk/drka+DL9w6sXNzV5nrdlBmf8+x495QXQ==
   dependencies:
-    "@typescript-eslint/types" "4.28.5"
-    "@typescript-eslint/visitor-keys" "4.28.5"
+    "@typescript-eslint/types" "4.29.0"
+    "@typescript-eslint/visitor-keys" "4.29.0"
     debug "^4.3.1"
     globby "^11.0.3"
     is-glob "^4.0.1"
     semver "^7.3.5"
     tsutils "^3.21.0"
 
-"@typescript-eslint/visitor-keys@4.28.5":
-  version "4.28.5"
-  resolved "https://hikick-547032093617.d.codeartifact.ap-northeast-1.amazonaws.com:443/npm/hikick/@typescript-eslint/visitor-keys/-/visitor-keys-4.28.5.tgz#ffee2c602762ed6893405ee7c1144d9cc0a29675"
-  integrity sha512-dva/7Rr+EkxNWdJWau26xU/0slnFlkh88v3TsyTgRS/IIYFi5iIfpCFM4ikw0vQTFUR9FYSSyqgK4w64gsgxhg==
+"@typescript-eslint/visitor-keys@4.29.0":
+  version "4.29.0"
+  resolved "https://hikick-547032093617.d.codeartifact.ap-northeast-1.amazonaws.com:443/npm/hikick/@typescript-eslint/visitor-keys/-/visitor-keys-4.29.0.tgz#1ff60f240def4d85ea68d4fd2e4e9759b7850c04"
+  integrity sha512-LoaofO1C/jAJYs0uEpYMXfHboGXzOJeV118X4OsZu9f7rG7Pr9B3+4HTU8+err81rADa4xfQmAxnRnPAI2jp+Q==
   dependencies:
-    "@typescript-eslint/types" "4.28.5"
+    "@typescript-eslint/types" "4.29.0"
     eslint-visitor-keys "^2.0.0"
 
 "@webassemblyjs/ast@1.11.1":
@@ -1069,10 +1076,20 @@ abort-controller@^3.0.0:
   dependencies:
     event-target-shim "^5.0.0"
 
+acorn-import-assertions@^1.7.6:
+  version "1.7.6"
+  resolved "https://hikick-547032093617.d.codeartifact.ap-northeast-1.amazonaws.com:443/npm/hikick/acorn-import-assertions/-/acorn-import-assertions-1.7.6.tgz#580e3ffcae6770eebeec76c3b9723201e9d01f78"
+  integrity sha512-FlVvVFA1TX6l3lp8VjDnYYq7R1nyW6x3svAt4nDgrWQ9SBaSh9CnbwgSUTasgfNfOG5HlM1ehugCvM+hjo56LA==
+
 acorn-jsx@^5.3.1:
   version "5.3.2"
   resolved "https://hikick-547032093617.d.codeartifact.ap-northeast-1.amazonaws.com:443/npm/hikick/acorn-jsx/-/acorn-jsx-5.3.2.tgz#7ed5bb55908b3b2f1bc55c6af1653bada7f07937"
   integrity sha512-rq9s+JNhf0IChjtDXxllJ7g41oZk5SlXtp0LHwyA5cejwn7vKmKp4pPri6YEePv2PU65sAsegbXtIinmDFDXgQ==
+
+acorn-walk@^8.1.1:
+  version "8.1.1"
+  resolved "https://hikick-547032093617.d.codeartifact.ap-northeast-1.amazonaws.com:443/npm/hikick/acorn-walk/-/acorn-walk-8.1.1.tgz#3ddab7f84e4a7e2313f6c414c5b7dac85f4e3ebc"
+  integrity sha512-FbJdceMlPHEAWJOILDk1fXD8lnTlEIWFkqtfk+MvmL5q/qlHfN7GEHcsFZWt/Tea9jRNPWUZG4G976nqAAmU9w==
 
 acorn@^7.4.0:
   version "7.4.1"
@@ -1084,12 +1101,7 @@ acorn@^8.4.1:
   resolved "https://hikick-547032093617.d.codeartifact.ap-northeast-1.amazonaws.com:443/npm/hikick/acorn/-/acorn-8.4.1.tgz#56c36251fc7cabc7096adc18f05afe814321a28c"
   integrity sha512-asabaBSkEKosYKMITunzX177CXxQ4Q8BSSzMTKD+FefUhipQC70gfW5SiUDhYQ3vk8G+81HqQk7Fv9OXwwn9KA==
 
-adm-zip@^0.4.13:
-  version "0.4.16"
-  resolved "https://hikick-547032093617.d.codeartifact.ap-northeast-1.amazonaws.com:443/npm/hikick/adm-zip/-/adm-zip-0.4.16.tgz#cf4c508fdffab02c269cbc7f471a875f05570365"
-  integrity sha512-TFi4HBKSGfIKsK5YCkKaaFG2m4PEDyViZmEwof3MTIgzimHLto6muaHVpbrljdIvIrFZzEq/p4nafOeLcYegrg==
-
-adm-zip@^0.5.1, adm-zip@^0.5.4:
+adm-zip@^0.5.1, adm-zip@^0.5.4, adm-zip@^0.5.5:
   version "0.5.5"
   resolved "https://hikick-547032093617.d.codeartifact.ap-northeast-1.amazonaws.com:443/npm/hikick/adm-zip/-/adm-zip-0.5.5.tgz#b6549dbea741e4050309f1bb4d47c47397ce2c4f"
   integrity sha512-IWwXKnCbirdbyXSfUDvCCrmYrOHANRZcc8NcRrvTlIApdl7PwE9oGcsYvNeJPAVY1M+70b4PxXGKIf8AEuiQ6w==
@@ -1310,9 +1322,9 @@ async@^2.6.1, async@^2.6.2:
     lodash "^4.17.14"
 
 async@^3.1.0, async@^3.2.0:
-  version "3.2.0"
-  resolved "https://hikick-547032093617.d.codeartifact.ap-northeast-1.amazonaws.com:443/npm/hikick/async/-/async-3.2.0.tgz#b3a2685c5ebb641d3de02d161002c60fc9f85720"
-  integrity sha512-TR2mEZFVOj2pLStYxLht7TyfuRzaydfpxr3k9RpHIzMgw7A64dzsdqCxH1WJyQdoe8T10nDXd9wnEigmiuHIZw==
+  version "3.2.1"
+  resolved "https://hikick-547032093617.d.codeartifact.ap-northeast-1.amazonaws.com:443/npm/hikick/async/-/async-3.2.1.tgz#d3274ec66d107a47476a4c49136aacdb00665fc8"
+  integrity sha512-XdD5lRO/87udXCMC9meWdYiR+Nq6ZjUfXidViUZGu2F1MO4T3XwZ1et0hb2++BgLfhyJwy44BGB/yx80ABx8hg==
 
 asynckit@^0.4.0:
   version "0.4.0"
@@ -1334,10 +1346,10 @@ aws-lambda@^1.0.6:
     js-yaml "^3.13.1"
     watchpack "^2.0.0-beta.10"
 
-aws-sdk@*, aws-sdk@^2.951.0:
-  version "2.954.0"
-  resolved "https://hikick-547032093617.d.codeartifact.ap-northeast-1.amazonaws.com:443/npm/hikick/aws-sdk/-/aws-sdk-2.954.0.tgz#5e9f43327af695c193064d5d7defb5c20d6f7d17"
-  integrity sha512-AbP7lUIBVHX1/dnDMgcmmkRYRU5FeBRqemtsV+BwHywEKeiDpVi024KNOIkZkd4NoYtRiLEOwTzUP9w1z/EnxQ==
+aws-sdk@*, aws-sdk@^2.962.0:
+  version "2.963.0"
+  resolved "https://hikick-547032093617.d.codeartifact.ap-northeast-1.amazonaws.com:443/npm/hikick/aws-sdk/-/aws-sdk-2.963.0.tgz#9655743e69e9466c7aed5962a680c330a6cad212"
+  integrity sha512-EY7EPap1c/1RxPx+Py56t9btJug3Z3PJkCfplqzNuU1QlFGs+rN8yYm9xIn8J6gbJ5D8F4Qab0GCtTmGstlHfQ==
   dependencies:
     buffer "4.9.2"
     events "1.1.1"
@@ -1499,15 +1511,15 @@ braces@^3.0.1, braces@~3.0.2:
     fill-range "^7.0.1"
 
 browserslist@^4.14.5:
-  version "4.16.6"
-  resolved "https://hikick-547032093617.d.codeartifact.ap-northeast-1.amazonaws.com:443/npm/hikick/browserslist/-/browserslist-4.16.6.tgz#d7901277a5a88e554ed305b183ec9b0c08f66fa2"
-  integrity sha512-Wspk/PqO+4W9qp5iUTJsa1B/QrYn1keNCcEP5OvP7WBwT4KaDly0uONYmC6Xa3Z5IqnUgS0KcgLYu1l74x0ZXQ==
+  version "4.16.7"
+  resolved "https://hikick-547032093617.d.codeartifact.ap-northeast-1.amazonaws.com:443/npm/hikick/browserslist/-/browserslist-4.16.7.tgz#108b0d1ef33c4af1b587c54f390e7041178e4335"
+  integrity sha512-7I4qVwqZltJ7j37wObBe3SoTz+nS8APaNcrBOlgoirb6/HbEU2XxW/LpUDTCngM6iauwFqmRTuOMfyKnFGY5JA==
   dependencies:
-    caniuse-lite "^1.0.30001219"
+    caniuse-lite "^1.0.30001248"
     colorette "^1.2.2"
-    electron-to-chromium "^1.3.723"
+    electron-to-chromium "^1.3.793"
     escalade "^3.1.1"
-    node-releases "^1.1.71"
+    node-releases "^1.1.73"
 
 bson@^1.1.4:
   version "1.1.6"
@@ -1543,9 +1555,9 @@ buffer-fill@^1.0.0:
   integrity sha1-+PeLdniYiO858gXNY39o5wISKyw=
 
 buffer-from@^1.0.0:
-  version "1.1.1"
-  resolved "https://hikick-547032093617.d.codeartifact.ap-northeast-1.amazonaws.com:443/npm/hikick/buffer-from/-/buffer-from-1.1.1.tgz#32713bc028f75c02fdb710d7c7bcec1f2c6070ef"
-  integrity sha512-MQcXEUbCKtEo7bhqEs6560Hyd4XaovZlO/k9V3hjVUF/zwW7KBVdSK4gIt/bzwS9MbR5qob+F5jusZsb0YQK2A==
+  version "1.1.2"
+  resolved "https://hikick-547032093617.d.codeartifact.ap-northeast-1.amazonaws.com:443/npm/hikick/buffer-from/-/buffer-from-1.1.2.tgz#2b146a6fd72e80b4f55d255f35ed59a3a9a41bd5"
+  integrity sha512-E+XQCRwSbaaiChtv6k6Dwgc+bx+Bs6vuKJHHl5kox/BaKbhiXzqQOwK4cO22yElGp2OCmjwVhT3HmxgyPGnJfQ==
 
 buffer@4.9.2:
   version "4.9.2"
@@ -1635,10 +1647,10 @@ camelcase@^6.2.0:
   resolved "https://hikick-547032093617.d.codeartifact.ap-northeast-1.amazonaws.com:443/npm/hikick/camelcase/-/camelcase-6.2.0.tgz#924af881c9d525ac9d87f40d964e5cea982a1809"
   integrity sha512-c7wVvbw3f37nuobQNtgsgG9POC9qMbNuMQmTCqZv23b6MIz0fcYpBiOlv9gEN/hdLdnZTDQhg6e9Dq5M1vKvfg==
 
-caniuse-lite@^1.0.30001219:
-  version "1.0.30001247"
-  resolved "https://hikick-547032093617.d.codeartifact.ap-northeast-1.amazonaws.com:443/npm/hikick/caniuse-lite/-/caniuse-lite-1.0.30001247.tgz#105be7a8fb30cdd303275e769a9dfb87d4b3577a"
-  integrity sha512-4rS7co+7+AoOSPRPOPUt5/GdaqZc0EsUpWk66ofE3HJTAajUK2Ss2VwoNzVN69ghg8lYYlh0an0Iy4LIHHo9UQ==
+caniuse-lite@^1.0.30001248:
+  version "1.0.30001249"
+  resolved "https://hikick-547032093617.d.codeartifact.ap-northeast-1.amazonaws.com:443/npm/hikick/caniuse-lite/-/caniuse-lite-1.0.30001249.tgz#90a330057f8ff75bfe97a94d047d5e14fabb2ee8"
+  integrity sha512-vcX4U8lwVXPdqzPWi6cAJ3FnQaqXbBqy/GZseKNQzRj37J7qZdGcBtxq/QLFNLLlfsoXLUdHw8Iwenri86Tagw==
 
 caseless@~0.12.0:
   version "0.12.0"
@@ -1661,10 +1673,10 @@ chalk@^2.0.0, chalk@^2.0.1, chalk@^2.4.2:
     escape-string-regexp "^1.0.5"
     supports-color "^5.3.0"
 
-chalk@^4.0.0, chalk@^4.1.0, chalk@^4.1.1:
-  version "4.1.1"
-  resolved "https://hikick-547032093617.d.codeartifact.ap-northeast-1.amazonaws.com:443/npm/hikick/chalk/-/chalk-4.1.1.tgz#c80b3fab28bf6371e6863325eee67e618b77e6ad"
-  integrity sha512-diHzdDKxcU+bAsUboHLPEDQiw0qEe0qd7SYUn3HgcFlWgbDcfLGswOHYeGrHKzG9z6UYf01d9VFMfZxPM1xZSg==
+chalk@^4.0.0, chalk@^4.1.0, chalk@^4.1.1, chalk@^4.1.2:
+  version "4.1.2"
+  resolved "https://hikick-547032093617.d.codeartifact.ap-northeast-1.amazonaws.com:443/npm/hikick/chalk/-/chalk-4.1.2.tgz#aac4e2b7734a740867aeb16bf02aad556a1e7a01"
+  integrity sha512-oKnbhFyRIXpUuez8iBMmyEa4nbj4IOQyuhc/wy9kY7/WVPcwIO9VA668Pu8RkO7+0G76SLROeyw9CpQ061i4mA==
   dependencies:
     ansi-styles "^4.1.0"
     supports-color "^7.1.0"
@@ -2300,10 +2312,10 @@ ecdsa-sig-formatter@1.0.11, ecdsa-sig-formatter@^1.0.11:
   dependencies:
     safe-buffer "^5.0.1"
 
-electron-to-chromium@^1.3.723:
-  version "1.3.788"
-  resolved "https://hikick-547032093617.d.codeartifact.ap-northeast-1.amazonaws.com:443/npm/hikick/electron-to-chromium/-/electron-to-chromium-1.3.788.tgz#7a304c8ebb11d30916a1a1c1b4a9bad3983ef232"
-  integrity sha512-dbMIpX4E4/Gk4gzOh1GYS7ls1vGsByWKpIqLviJi1mSmSt5BvrWLLtSqpFE5BaC7Ef4NnI0GMaiddNX2Brw6zA==
+electron-to-chromium@^1.3.793:
+  version "1.3.799"
+  resolved "https://hikick-547032093617.d.codeartifact.ap-northeast-1.amazonaws.com:443/npm/hikick/electron-to-chromium/-/electron-to-chromium-1.3.799.tgz#6e9911b25e7ecd5aa1e54dcb68f82a3e02d00f09"
+  integrity sha512-V2rbYWdGvSqrg+95KjkVuSi41bGfrhrOzjl1tSi2VLnm0mRe3FsSvhiqidSiSll9WiMhrQAhpDcW/wcqK3c+Yw==
 
 emoji-regex@^7.0.1:
   version "7.0.3"
@@ -2511,10 +2523,10 @@ eslint-visitor-keys@^2.0.0:
   resolved "https://hikick-547032093617.d.codeartifact.ap-northeast-1.amazonaws.com:443/npm/hikick/eslint-visitor-keys/-/eslint-visitor-keys-2.1.0.tgz#f65328259305927392c938ed44eb0a5c9b2bd303"
   integrity sha512-0rSmRBzXgDzIsD6mGdJgevzgezI534Cer5L/vyMX0kHzT/jiB43jRhd9YUlMGYLQy2zprNmoT8qasCGtY+QaKw==
 
-eslint@^7.31.0:
-  version "7.31.0"
-  resolved "https://hikick-547032093617.d.codeartifact.ap-northeast-1.amazonaws.com:443/npm/hikick/eslint/-/eslint-7.31.0.tgz#f972b539424bf2604907a970860732c5d99d3aca"
-  integrity sha512-vafgJpSh2ia8tnTkNUkwxGmnumgckLh5aAbLa1xRmIn9+owi8qBNGKL+B881kNKNTy7FFqTEkpNkUvmw0n6PkA==
+eslint@^7.32.0:
+  version "7.32.0"
+  resolved "https://hikick-547032093617.d.codeartifact.ap-northeast-1.amazonaws.com:443/npm/hikick/eslint/-/eslint-7.32.0.tgz#c6d328a14be3fb08c8d1d21e12c02fdb7a2a812d"
+  integrity sha512-VHZ8gX+EDfz+97jGcgyGCyRia/dPOd6Xh9yPv8Bl1+SoaIwD+a/vlrOmGRUyOYu7MwUhc7CxqeaDZU13S4+EpA==
   dependencies:
     "@babel/code-frame" "7.12.11"
     "@eslint/eslintrc" "^0.4.3"
@@ -2702,7 +2714,7 @@ fast-diff@^1.1.2:
   resolved "https://hikick-547032093617.d.codeartifact.ap-northeast-1.amazonaws.com:443/npm/hikick/fast-diff/-/fast-diff-1.2.0.tgz#73ee11982d86caaf7959828d519cfe927fac5f03"
   integrity sha512-xJuoT5+L99XlZ8twedaRf6Ax2TgQVxvgZOYoPKqZufmJib0tL2tegPBOZb1pVNgIhlqDlA0eO0c3wBvQcmzx4w==
 
-fast-glob@^3.1.1, fast-glob@^3.2.4, fast-glob@^3.2.5:
+fast-glob@^3.1.1, fast-glob@^3.2.4, fast-glob@^3.2.7:
   version "3.2.7"
   resolved "https://hikick-547032093617.d.codeartifact.ap-northeast-1.amazonaws.com:443/npm/hikick/fast-glob/-/fast-glob-3.2.7.tgz#fd6cb7a2d7e9aa7a7846111e85a196d6b2f766a1"
   integrity sha512-rYGMRwip6lUMvYD3BTScMwT1HtAs2d71SMv66Vrxs0IekGZEjhM0pcMfjQPnknBt2zeCwQMEupiN02ZP4DiT1Q==
@@ -2786,13 +2798,13 @@ file-entry-cache@^6.0.1:
     flat-cache "^3.0.4"
 
 file-type@^16.5.2:
-  version "16.5.2"
-  resolved "https://hikick-547032093617.d.codeartifact.ap-northeast-1.amazonaws.com:443/npm/hikick/file-type/-/file-type-16.5.2.tgz#e6626f7a253af2ecf499f31995f0e849226825a8"
-  integrity sha512-lnHRZj2USLF3v4C5ZY7/vQQeoTVA1YV9TtD6UUCr9z5Cd0uyutqxPBJxkXzM6lufPNuSfefq/yFmnSPz0C3wNw==
+  version "16.5.3"
+  resolved "https://hikick-547032093617.d.codeartifact.ap-northeast-1.amazonaws.com:443/npm/hikick/file-type/-/file-type-16.5.3.tgz#474b7e88c74724046abb505e9b8ed4db30c4fc06"
+  integrity sha512-uVsl7iFhHSOY4bEONLlTK47iAHtNsFHWP5YE4xJfZ4rnX7S1Q3wce09XgqSC7E/xh8Ncv/be1lNoyprlUH/x6A==
   dependencies:
     readable-web-to-node-stream "^3.0.0"
-    strtok3 "6.1.3"
-    token-types "^3.0.0"
+    strtok3 "^6.2.4"
+    token-types "^4.1.1"
 
 file-type@^3.8.0:
   version "3.9.0"
@@ -2883,9 +2895,9 @@ flat@^5.0.2:
   integrity sha512-b6suED+5/3rTpUBdG1gupIl8MPFCAMA0QXwmljLhvCUKcUvdE4gWky9zpuGCcXHOsz4J9wPGNWq6OKpmIzz3hQ==
 
 flatted@^3.1.0:
-  version "3.2.1"
-  resolved "https://hikick-547032093617.d.codeartifact.ap-northeast-1.amazonaws.com:443/npm/hikick/flatted/-/flatted-3.2.1.tgz#bbef080d95fca6709362c73044a1634f7c6e7d05"
-  integrity sha512-OMQjaErSFHmHqZe+PSidH5n8j3O0F2DdnVh8JB4j4eUQ2k6KvB0qGfrKIhapvez5JerBbmWkaLYUYWISaESoXg==
+  version "3.2.2"
+  resolved "https://hikick-547032093617.d.codeartifact.ap-northeast-1.amazonaws.com:443/npm/hikick/flatted/-/flatted-3.2.2.tgz#64bfed5cb68fe3ca78b3eb214ad97b63bedce561"
+  integrity sha512-JaTY/wtrcSyvXJl4IMFHPKyFur1sE9AUqc0QnhOaJ0CxHtAoIV8pYDzeEfAaNEtGkOfq4gr3LBFmdXW5mOQFnA==
 
 fn.name@1.x.x:
   version "1.1.0"
@@ -3137,9 +3149,9 @@ globby@^11.0.3, globby@^11.0.4:
     slash "^3.0.0"
 
 google-auth-library@^7.0.0, google-auth-library@^7.0.2, google-auth-library@^7.3.0:
-  version "7.3.0"
-  resolved "https://hikick-547032093617.d.codeartifact.ap-northeast-1.amazonaws.com:443/npm/hikick/google-auth-library/-/google-auth-library-7.3.0.tgz#946a911c72425b05f02735915f03410604466657"
-  integrity sha512-MPeeMlnsYnoiiVFMwX3hgaS684aiXrSqKoDP+xL4Ejg4Z0qLvIeg4XsaChemyFI8ZUO7ApwDAzNtgmhWSDNh5w==
+  version "7.5.0"
+  resolved "https://hikick-547032093617.d.codeartifact.ap-northeast-1.amazonaws.com:443/npm/hikick/google-auth-library/-/google-auth-library-7.5.0.tgz#6b0a623dfb4ee7a8d93a0d25455031d1baf86181"
+  integrity sha512-iRMwc060kiA6ncZbAoQN90nlwT8jiHVmippofpMgo4YFEyRBaPouyM7+ZB742wKetByyy+TahshVRTx0tEyXGQ==
   dependencies:
     arrify "^2.0.0"
     base64-js "^1.3.0"
@@ -3152,9 +3164,9 @@ google-auth-library@^7.0.0, google-auth-library@^7.0.2, google-auth-library@^7.3
     lru-cache "^6.0.0"
 
 google-gax@^2.17.1:
-  version "2.19.0"
-  resolved "https://hikick-547032093617.d.codeartifact.ap-northeast-1.amazonaws.com:443/npm/hikick/google-gax/-/google-gax-2.19.0.tgz#e0e113f48688289e22053528224dfac09f019164"
-  integrity sha512-2a6WY+p6YMVMmwXmkRqiLreXx67xHDZhkmflcL8aDUkl1csx9ywxEI01veoDXy6T1l0JJD6zLbl5TIbWimmXrw==
+  version "2.22.1"
+  resolved "https://hikick-547032093617.d.codeartifact.ap-northeast-1.amazonaws.com:443/npm/hikick/google-gax/-/google-gax-2.22.1.tgz#9753a162d63591e89606985547f00d8e5f2cdf85"
+  integrity sha512-/X5Ym6f6Q4sH/3blMr1w/QzFhH0ZKnx9kOusUPwwZH6JmSwLpbuyUDbOc7MAvadl4r7yI2AASILLWK3fT+1Thg==
   dependencies:
     "@grpc/grpc-js" "~1.3.0"
     "@grpc/proto-loader" "^0.6.1"
@@ -3166,7 +3178,8 @@ google-gax@^2.17.1:
     is-stream-ended "^0.1.4"
     node-fetch "^2.6.1"
     object-hash "^2.1.1"
-    protobufjs "^6.10.2"
+    proto3-json-serializer "^0.1.0"
+    protobufjs "6.11.2"
     retry-request "^4.0.0"
 
 google-p12-pem@^3.0.3:
@@ -3210,10 +3223,10 @@ got@^9.6.0:
     to-readable-stream "^1.0.0"
     url-parse-lax "^3.0.0"
 
-graceful-fs@^4.1.10, graceful-fs@^4.1.11, graceful-fs@^4.1.2, graceful-fs@^4.1.6, graceful-fs@^4.2.0, graceful-fs@^4.2.4, graceful-fs@^4.2.6:
-  version "4.2.6"
-  resolved "https://hikick-547032093617.d.codeartifact.ap-northeast-1.amazonaws.com:443/npm/hikick/graceful-fs/-/graceful-fs-4.2.6.tgz#ff040b2b0853b23c3d31027523706f1885d76bee"
-  integrity sha512-nTnJ528pbqxYanhpDYsi4Rd8MAeaBA67+RZ10CM1m3bTAVFEDcd5AuA4a6W5YkGZ1iNXHzZz8T6TBKLeBuNriQ==
+graceful-fs@^4.1.10, graceful-fs@^4.1.11, graceful-fs@^4.1.2, graceful-fs@^4.1.6, graceful-fs@^4.2.0, graceful-fs@^4.2.4, graceful-fs@^4.2.8:
+  version "4.2.8"
+  resolved "https://hikick-547032093617.d.codeartifact.ap-northeast-1.amazonaws.com:443/npm/hikick/graceful-fs/-/graceful-fs-4.2.8.tgz#e412b8d33f5e006593cbd3cee6df9f2cebbe802a"
+  integrity sha512-qkIilPUYcNhJpd33n0GBXTB1MMPp14TxEsEs0pTrsSVucApsYzW5V+Q8Qxhik6KU3evy+qkAAowTByymK0avdg==
 
 graphlib@^2.1.8:
   version "2.1.8"
@@ -3734,9 +3747,9 @@ jsprim@^1.2.2:
     verror "1.10.0"
 
 jszip@^3.6.0:
-  version "3.7.0"
-  resolved "https://hikick-547032093617.d.codeartifact.ap-northeast-1.amazonaws.com:443/npm/hikick/jszip/-/jszip-3.7.0.tgz#9b8b995a4e7c9024653ce743e902076a82fdf4e6"
-  integrity sha512-Y2OlFIzrDOPWUnpU0LORIcDn2xN7rC9yKffFM/7pGhQuhO+SUhfm2trkJ/S5amjFvem0Y+1EALz/MEPkvHXVNw==
+  version "3.7.1"
+  resolved "https://hikick-547032093617.d.codeartifact.ap-northeast-1.amazonaws.com:443/npm/hikick/jszip/-/jszip-3.7.1.tgz#bd63401221c15625a1228c556ca8a68da6fda3d9"
+  integrity sha512-ghL0tz1XG9ZEmRMcEN2vt7xabrDdqHHeykgARpmZ0BiIctWxM47Vt63ZO2dnp4QYt/xJVLLy5Zv1l/xRdh2byg==
   dependencies:
     lie "~3.3.0"
     pako "~1.0.2"
@@ -4101,22 +4114,17 @@ micromatch@^4.0.0, micromatch@^4.0.4:
     braces "^3.0.1"
     picomatch "^2.2.3"
 
-mime-db@1.48.0:
-  version "1.48.0"
-  resolved "https://hikick-547032093617.d.codeartifact.ap-northeast-1.amazonaws.com:443/npm/hikick/mime-db/-/mime-db-1.48.0.tgz#e35b31045dd7eada3aaad537ed88a33afbef2d1d"
-  integrity sha512-FM3QwxV+TnZYQ2aRqhlKBMHxk10lTbMt3bBkMAp54ddrNeVSfcQYOOKuGuy3Ddrm38I04If834fOUSq1yzslJQ==
-
-"mime-db@>= 1.43.0 < 2", mime-db@^1.28.0:
+mime-db@1.49.0, "mime-db@>= 1.43.0 < 2", mime-db@^1.28.0:
   version "1.49.0"
   resolved "https://hikick-547032093617.d.codeartifact.ap-northeast-1.amazonaws.com:443/npm/hikick/mime-db/-/mime-db-1.49.0.tgz#f3dfde60c99e9cf3bc9701d687778f537001cbed"
   integrity sha512-CIc8j9URtOVApSFCQIF+VBkX1RwXp/oMMOrqdyXSBXq5RWNEsRfyj1kiRnQgmNXmHxPoFIxOroKA3zcU9P+nAA==
 
 mime-types@^2.0.8, mime-types@^2.1.12, mime-types@^2.1.27, mime-types@~2.1.19, mime-types@~2.1.24:
-  version "2.1.31"
-  resolved "https://hikick-547032093617.d.codeartifact.ap-northeast-1.amazonaws.com:443/npm/hikick/mime-types/-/mime-types-2.1.31.tgz#a00d76b74317c61f9c2db2218b8e9f8e9c5c9e6b"
-  integrity sha512-XGZnNzm3QvgKxa8dpzyhFTHmpP3l5YNusmne07VUOXxou9CqUqYa/HBy124RqtVh/O2pECas/MOcsDgpilPOPg==
+  version "2.1.32"
+  resolved "https://hikick-547032093617.d.codeartifact.ap-northeast-1.amazonaws.com:443/npm/hikick/mime-types/-/mime-types-2.1.32.tgz#1d00e89e7de7fe02008db61001d9e02852670fd5"
+  integrity sha512-hJGaVS4G4c9TSMYh2n6SQAGrC4RnfU+daP8G7cSCmaqNjiOoUY0VHCMS42pxnQmVF1GWwFhbHWn3RIxCqTmZ9A==
   dependencies:
-    mime-db "1.48.0"
+    mime-db "1.49.0"
 
 mime@^1.4.1:
   version "1.6.0"
@@ -4205,13 +4213,12 @@ mongoose-legacy-pluralize@1.0.2:
   resolved "https://hikick-547032093617.d.codeartifact.ap-northeast-1.amazonaws.com:443/npm/hikick/mongoose-legacy-pluralize/-/mongoose-legacy-pluralize-1.0.2.tgz#3ba9f91fa507b5186d399fb40854bff18fb563e4"
   integrity sha512-Yo/7qQU4/EyIS8YDFSeenIvXxZN+ld7YdV9LqFVQJzTLye8unujAWPZ4NWKfFA+RNjh+wvTWKY9Z3E5XM6ZZiQ==
 
-mongoose@^5.13.3:
-  version "5.13.3"
-  resolved "https://hikick-547032093617.d.codeartifact.ap-northeast-1.amazonaws.com:443/npm/hikick/mongoose/-/mongoose-5.13.3.tgz#42cb40207bbcaca9c6fa94b0a8c0a38181c1965e"
-  integrity sha512-q+zX6kqHAvwxf5speMWhq6qF4vdj+x6/kfD5RSKdZKNm52yGmaUygN+zgrtQjBZPFEzG0B3vF6GP0PoAGadE+w==
+mongoose@^5.13.5:
+  version "5.13.5"
+  resolved "https://hikick-547032093617.d.codeartifact.ap-northeast-1.amazonaws.com:443/npm/hikick/mongoose/-/mongoose-5.13.5.tgz#9c8c0b46d35116dd4ea47683dfa836137e475243"
+  integrity sha512-sSUAk9GWgA8r3w3nVNrNjBaDem86aevwXO8ltDMKzCf+rjnteMMQkXHQdn1ePkt7alROEPZYCAjiRjptWRSPiQ==
   dependencies:
     "@types/mongodb" "^3.5.27"
-    "@types/node" "14.x || 15.x"
     bson "^1.1.4"
     kareem "2.3.2"
     mongodb "3.6.10"
@@ -4219,6 +4226,7 @@ mongoose@^5.13.3:
     mpath "0.8.3"
     mquery "3.2.5"
     ms "2.1.2"
+    optional-require "1.0.x"
     regexp-clone "1.0.0"
     safe-buffer "5.2.1"
     sift "13.5.2"
@@ -4266,9 +4274,9 @@ mute-stream@0.0.8:
   integrity sha512-nnbWWOkoWyUsTjKrhgD0dcz22mdkSnpYqbEjIm2nhwhuxlSkpywJmBo8h0ZqJdkp73mb90SssHkN4rsRaBAfAA==
 
 nan@^2.14.1:
-  version "2.14.2"
-  resolved "https://hikick-547032093617.d.codeartifact.ap-northeast-1.amazonaws.com:443/npm/hikick/nan/-/nan-2.14.2.tgz#f5376400695168f4cc694ac9393d0c9585eeea19"
-  integrity sha512-M2ufzIiINKCuDfBSAUr1vWQ+vuVcA9kqx8JJUsbQi6yf1uGRyb7HfpdfUr5qLXf3B/t8dPvcjhKMmlfnP47EzQ==
+  version "2.15.0"
+  resolved "https://hikick-547032093617.d.codeartifact.ap-northeast-1.amazonaws.com:443/npm/hikick/nan/-/nan-2.15.0.tgz#3f34a473ff18e15c1b5626b62903b5ad6e665fee"
+  integrity sha512-8ZtvEnA2c5aYCZYd1cvgdnU6cqwixRoYg70xPLWUws5ORTa/lnw+u4amixRS/Ac5U5mQVgp9pnlSUnbNWFaWZQ==
 
 nanoid@^2.1.0:
   version "2.1.11"
@@ -4352,7 +4360,7 @@ node-forge@^0.10.0:
   resolved "https://hikick-547032093617.d.codeartifact.ap-northeast-1.amazonaws.com:443/npm/hikick/node-forge/-/node-forge-0.10.0.tgz#32dea2afb3e9926f02ee5ce8794902691a676bf3"
   integrity sha512-PPmu8eEeG9saEUvI97fm4OYxXVB6bFvyNTyiUOBichBpFG8A1Ljw3bY62+5oOjDEMHRnd0Y7HQ+x7uzxOzC6JA==
 
-node-releases@^1.1.71:
+node-releases@^1.1.73:
   version "1.1.73"
   resolved "https://hikick-547032093617.d.codeartifact.ap-northeast-1.amazonaws.com:443/npm/hikick/node-releases/-/node-releases-1.1.73.tgz#dd4e81ddd5277ff846b80b52bb40c49edf7a7b20"
   integrity sha512-uW7fodD6pyW2FZNZnp/Z3hvWKeEW1Y8R1+1CnErE8cXFXzl5blBOoVB41CvMer6P6Q0S5FXDwcHgFd1Wj0U9zg==
@@ -4461,10 +4469,15 @@ openapi-internal-sdk@^1.6.0:
     axios "^0.21.1"
     jsonwebtoken "^8.5.1"
 
+optional-require@1.0.x:
+  version "1.0.3"
+  resolved "https://hikick-547032093617.d.codeartifact.ap-northeast-1.amazonaws.com:443/npm/hikick/optional-require/-/optional-require-1.0.3.tgz#275b8e9df1dc6a17ad155369c2422a440f89cb07"
+  integrity sha512-RV2Zp2MY2aeYK5G+B/Sps8lW5NHAzE5QClbFP15j+PWmP+T9PxlJXBOOLoSAdgwFvS4t0aMR4vpedMkbHfh0nA==
+
 optional-require@^1.0.3:
-  version "1.1.0"
-  resolved "https://hikick-547032093617.d.codeartifact.ap-northeast-1.amazonaws.com:443/npm/hikick/optional-require/-/optional-require-1.1.0.tgz#01dfbafbbc2e8d79e33558f5af3917f22cc35c2c"
-  integrity sha512-5/7ee3eTFg1P+F9usTubuNCLfWRK6DjV0EFHLlbp7MmV5UlWqpWIVSnH6xo4u+fc5WHXaJuvJi6iuYnfDyj6oQ==
+  version "1.1.6"
+  resolved "https://hikick-547032093617.d.codeartifact.ap-northeast-1.amazonaws.com:443/npm/hikick/optional-require/-/optional-require-1.1.6.tgz#886693c22d166c79377137dfb60cd653fa49a967"
+  integrity sha512-ZO2GGh1A84LV90OAIsMDmIJ5k/f7crSjP4aJSuLudp7C7wfVOAoyWWHV8Jf3ZMHyNHwpLD/DGhzaxbbN/duF+g==
   dependencies:
     require-at "^1.0.6"
 
@@ -4596,10 +4609,10 @@ path2@^0.1.0:
   resolved "https://hikick-547032093617.d.codeartifact.ap-northeast-1.amazonaws.com:443/npm/hikick/path2/-/path2-0.1.0.tgz#639828942cdbda44a41a45b074ae8873483b4efa"
   integrity sha1-Y5golCzb2kSkGkWwdK6Ic0g7Tvo=
 
-peek-readable@^3.1.4:
-  version "3.1.4"
-  resolved "https://hikick-547032093617.d.codeartifact.ap-northeast-1.amazonaws.com:443/npm/hikick/peek-readable/-/peek-readable-3.1.4.tgz#f5c3b41a4eeb63a1322c4131f0b5bac7105b892e"
-  integrity sha512-DX7ec7frSMtCWw+zMd27f66hcxIz/w9LQTY2RflB4WNHCVPAye1pJiP2t3gvaaOhu7IOhtPbHw8MemMj+F5lrg==
+peek-readable@^4.0.1:
+  version "4.0.1"
+  resolved "https://hikick-547032093617.d.codeartifact.ap-northeast-1.amazonaws.com:443/npm/hikick/peek-readable/-/peek-readable-4.0.1.tgz#9a045f291db254111c3412c1ce4fec27ddd4d202"
+  integrity sha512-7qmhptnR0WMSpxT5rMHG9bW/mYSR1uqaPFj2MHvT+y/aOUu6msJijpKt5SkTDKySwg65OWG2JwTMBlgcbwMHrQ==
 
 pend@~1.2.0:
   version "1.2.0"
@@ -4729,7 +4742,12 @@ promise-queue@^2.2.5:
   resolved "https://hikick-547032093617.d.codeartifact.ap-northeast-1.amazonaws.com:443/npm/hikick/promise-queue/-/promise-queue-2.2.5.tgz#2f6f5f7c0f6d08109e967659c79b88a9ed5e93b4"
   integrity sha1-L29ffA9tCBCelnZZx5uIqe1ek7Q=
 
-protobufjs@^6.10.0, protobufjs@^6.10.2, protobufjs@^6.8.6, protobufjs@^6.9.0:
+proto3-json-serializer@^0.1.0:
+  version "0.1.1"
+  resolved "https://hikick-547032093617.d.codeartifact.ap-northeast-1.amazonaws.com:443/npm/hikick/proto3-json-serializer/-/proto3-json-serializer-0.1.1.tgz#b53d2f02082e95ed901b9843c382aa2f89de8b62"
+  integrity sha512-Wucuvf7SqAw1wcai0zV+3jW3QZJiO/W9wZoJaTheebYdwfj2k9VfF3Gw9r2vGAaTeslhMbkVbojJG0+LjpgLxQ==
+
+protobufjs@6.11.2, protobufjs@^6.10.0, protobufjs@^6.8.6, protobufjs@^6.9.0:
   version "6.11.2"
   resolved "https://hikick-547032093617.d.codeartifact.ap-northeast-1.amazonaws.com:443/npm/hikick/protobufjs/-/protobufjs-6.11.2.tgz#de39fabd4ed32beaa08e9bb1e30d08544c1edf8b"
   integrity sha512-4BQJoPooKJl2G9j3XftkIXjoC9C0Av2NOrWmbLWT1vH32GcSUHjM0Arra6UfTsVyfMAuFzaLucXn1sadxJydAw==
@@ -5186,24 +5204,24 @@ serverless-webpack@^5.3.5:
   optionalDependencies:
     ts-node ">= 8.3.0"
 
-serverless@^2.52.1:
-  version "2.52.1"
-  resolved "https://hikick-547032093617.d.codeartifact.ap-northeast-1.amazonaws.com:443/npm/hikick/serverless/-/serverless-2.52.1.tgz#676540e9282ace955db85faf03752e3394871121"
-  integrity sha512-aDMJiSyCxqbJCt7011L0rMsxkd1lHSz8HotUiQWE8dFFqm3txZ1MpEy01bOLx4n35Qnyj1F8g+jmT9x+WnI2ZQ==
+serverless@^2.53.1:
+  version "2.53.1"
+  resolved "https://hikick-547032093617.d.codeartifact.ap-northeast-1.amazonaws.com:443/npm/hikick/serverless/-/serverless-2.53.1.tgz#e78dfee543a967ff4d5028bc58ea60666257d090"
+  integrity sha512-LK7BWPCpMq0p1TcnJb4uCkxYYrbsM2J7FOCd29BYKmvvUrB+NzFeAVGE1sR/cPF6ECT0PWsR9NEADb24o5D2WA==
   dependencies:
     "@serverless/cli" "^1.5.2"
-    "@serverless/components" "^3.14.0"
+    "@serverless/components" "^3.14.2"
     "@serverless/dashboard-plugin" "^5.4.3"
-    "@serverless/platform-client" "^4.2.5"
+    "@serverless/platform-client" "^4.2.6"
     "@serverless/utils" "^5.6.0"
     ajv "^6.12.6"
     ajv-keywords "^3.5.2"
     archiver "^5.3.0"
-    aws-sdk "^2.951.0"
+    aws-sdk "^2.962.0"
     bluebird "^3.7.2"
     boxen "^5.0.1"
     cachedir "^2.3.0"
-    chalk "^4.1.1"
+    chalk "^4.1.2"
     child-process-ext "^2.1.1"
     ci-info "^3.2.0"
     cli-progress-footer "^1.1.1"
@@ -5219,7 +5237,7 @@ serverless@^2.52.1:
     get-stdin "^8.0.0"
     globby "^11.0.4"
     got "^11.8.2"
-    graceful-fs "^4.2.6"
+    graceful-fs "^4.2.8"
     https-proxy-agent "^5.0.0"
     is-docker "^2.2.1"
     is-wsl "^2.2.0"
@@ -5239,7 +5257,7 @@ serverless@^2.52.1:
     semver "^7.3.5"
     signal-exit "^3.0.3"
     tabtab "^3.0.2"
-    tar "^6.1.0"
+    tar "^6.1.6"
     timers-ext "^0.1.7"
     type "^2.5.0"
     untildify "^4.0.0"
@@ -5321,9 +5339,9 @@ simple-get@^2.7.0:
     simple-concat "^1.0.0"
 
 simple-git@^2.40.0:
-  version "2.41.1"
-  resolved "https://hikick-547032093617.d.codeartifact.ap-northeast-1.amazonaws.com:443/npm/hikick/simple-git/-/simple-git-2.41.1.tgz#f7fe8a6183401a2cca36a2f6773db25bf78473ae"
-  integrity sha512-n1STz1tfnemvYndzWakgKa0JB4s/LrUG4btXMetWB9N9ZoIAJQd0ZtWj9sBwWxIZ/X/tYdA/tq+KHfFNAGzZhQ==
+  version "2.42.0"
+  resolved "https://hikick-547032093617.d.codeartifact.ap-northeast-1.amazonaws.com:443/npm/hikick/simple-git/-/simple-git-2.42.0.tgz#1c1ab2f06d28792d9d2d47f8ab75bd1ca5b6a4c3"
+  integrity sha512-illpUX0bcrdB3AyvBGLz0ToRVP7lXNJOGVybGVuVk7PpivPNK5YKJx2aagKdKbveaMtt0DCLK4/jfjDb6b2M2g==
   dependencies:
     "@kwsites/file-exists" "^1.1.1"
     "@kwsites/promise-deferred" "^1.1.1"
@@ -5409,12 +5427,7 @@ sort-keys@^1.0.0:
   dependencies:
     is-plain-obj "^1.0.0"
 
-source-list-map@^2.0.1:
-  version "2.0.1"
-  resolved "https://hikick-547032093617.d.codeartifact.ap-northeast-1.amazonaws.com:443/npm/hikick/source-list-map/-/source-list-map-2.0.1.tgz#3993bd873bfc48479cca9ea3a547835c7c154b34"
-  integrity sha512-qnQ7gVMxGNxsiL4lEuJwe/To8UnK7fAnmbGEEH8RpLouuKbeEm0lhbQVFIrNSuB+G7tVrAlVsZgETT5nljf+Iw==
-
-source-map-support@^0.5.17, source-map-support@~0.5.19:
+source-map-support@~0.5.19:
   version "0.5.19"
   resolved "https://hikick-547032093617.d.codeartifact.ap-northeast-1.amazonaws.com:443/npm/hikick/source-map-support/-/source-map-support-0.5.19.tgz#a98b62f86dcaf4f67399648c085291ab9e8fed61"
   integrity sha512-Wonm7zOCIJzBGQdB+thsPar0kYuCIzYvxZwlBa87yi/Mdjv7Tip2cyVbLj5o0cFPN4EVkuTwb3GDDyUx2DGnGw==
@@ -5610,13 +5623,13 @@ strip-outer@^1.0.1:
   dependencies:
     escape-string-regexp "^1.0.2"
 
-strtok3@6.1.3:
-  version "6.1.3"
-  resolved "https://hikick-547032093617.d.codeartifact.ap-northeast-1.amazonaws.com:443/npm/hikick/strtok3/-/strtok3-6.1.3.tgz#488fe8ca91664cf93432c94752ba9e5c785bd9dd"
-  integrity sha512-ssWSKFOeUTurMSucgyUf+a6Z9mVTYrsYiyEK5RLnh8BM6sFrKSljVlnjZXIDxMguYfdQI+mUPFHo88FYTxq1XA==
+strtok3@^6.2.4:
+  version "6.2.4"
+  resolved "https://hikick-547032093617.d.codeartifact.ap-northeast-1.amazonaws.com:443/npm/hikick/strtok3/-/strtok3-6.2.4.tgz#302aea64c0fa25d12a0385069ba66253fdc38a81"
+  integrity sha512-GO8IcFF9GmFDvqduIspUBwCzCbqzegyVKIsSymcMgiZKeCfrN9SowtUoi8+b59WZMAjIzVZic/Ft97+pynR3Iw==
   dependencies:
-    "@tokenizer/token" "^0.1.1"
-    peek-readable "^3.1.4"
+    "@tokenizer/token" "^0.3.0"
+    peek-readable "^4.0.1"
 
 stubs@^3.0.0:
   version "3.0.0"
@@ -5723,10 +5736,10 @@ tar-stream@^2.2.0:
     inherits "^2.0.3"
     readable-stream "^3.1.1"
 
-tar@^6.1.0:
-  version "6.1.2"
-  resolved "https://hikick-547032093617.d.codeartifact.ap-northeast-1.amazonaws.com:443/npm/hikick/tar/-/tar-6.1.2.tgz#1f045a90a6eb23557a603595f41a16c57d47adc6"
-  integrity sha512-EwKEgqJ7nJoS+s8QfLYVGMDmAsj+StbI2AM/RTHeUSsOw6Z8bwNBRv5z3CY0m7laC5qUAqruLX5AhMuc5deY3Q==
+tar@^6.1.6:
+  version "6.1.6"
+  resolved "https://hikick-547032093617.d.codeartifact.ap-northeast-1.amazonaws.com:443/npm/hikick/tar/-/tar-6.1.6.tgz#c23d797b0a1efe5d479b1490805c5443f3560c5d"
+  integrity sha512-oaWyu5dQbHaYcyZCTfyPpC+VmI62/OM2RTUYavTk1MDr1cwW5Boi3baeYQKiZbY2uSQJGr+iMOzb/JFxLrft+g==
   dependencies:
     chownr "^2.0.0"
     fs-minipass "^2.0.0"
@@ -5831,12 +5844,12 @@ to-regex-range@^5.0.1:
   dependencies:
     is-number "^7.0.0"
 
-token-types@^3.0.0:
-  version "3.1.0"
-  resolved "https://hikick-547032093617.d.codeartifact.ap-northeast-1.amazonaws.com:443/npm/hikick/token-types/-/token-types-3.1.0.tgz#df3902b514ba7573d8c6a2c0a6f69d1ac6a6f544"
-  integrity sha512-WhoeIW7UTn7NC7L0t/4x3vU/YYSS1oeUxYgiGXQLd82Kaf1qtlxOex3ETY0+o2QuRgAdyursMlUhQBKDCfMUkQ==
+token-types@^4.1.1:
+  version "4.1.1"
+  resolved "https://hikick-547032093617.d.codeartifact.ap-northeast-1.amazonaws.com:443/npm/hikick/token-types/-/token-types-4.1.1.tgz#ef9e8c8e2e0ded9f1b3f8dbaa46a3228b113ba1a"
+  integrity sha512-hD+QyuUAyI2spzsI0B7gf/jJ2ggR4RjkAo37j3StuePhApJUwcWDjnHDOFdIWYSwNR28H14hpwm4EI+V1Ted1w==
   dependencies:
-    "@tokenizer/token" "^0.1.1"
+    "@tokenizer/token" "^0.3.0"
     ieee754 "^1.2.1"
 
 tough-cookie@^2.3.3, tough-cookie@~2.5.0:
@@ -5869,10 +5882,10 @@ triple-beam@^1.2.0, triple-beam@^1.3.0:
   resolved "https://hikick-547032093617.d.codeartifact.ap-northeast-1.amazonaws.com:443/npm/hikick/triple-beam/-/triple-beam-1.3.0.tgz#a595214c7298db8339eeeee083e4d10bd8cb8dd9"
   integrity sha512-XrHUvV5HpdLmIj4uVMxHggLbFSZYIn7HEWsqePZcI50pco+MPqJ50wMGY794X7AOOhxOBAjbkqfAbEe/QMp2Lw==
 
-ts-loader@^9.2.4:
-  version "9.2.4"
-  resolved "https://hikick-547032093617.d.codeartifact.ap-northeast-1.amazonaws.com:443/npm/hikick/ts-loader/-/ts-loader-9.2.4.tgz#55fe7e5eab29fe4bdfb01c1f941c2bab928b7f92"
-  integrity sha512-Ats2BCqPFBkgsoZUmmYMjuQu+iBNExt4o3QDsJqRMuPdStWlnOthdqX/GHHJnxSSgw7Gu6Hll/MD5b4usgKFOg==
+ts-loader@^9.2.5:
+  version "9.2.5"
+  resolved "https://hikick-547032093617.d.codeartifact.ap-northeast-1.amazonaws.com:443/npm/hikick/ts-loader/-/ts-loader-9.2.5.tgz#127733a5e9243bf6dafcb8aa3b8a266d8041dca9"
+  integrity sha512-al/ATFEffybdRMUIr5zMEWQdVnCGMUA9d3fXJ8dBVvBlzytPvIszoG9kZoR+94k6/i293RnVOXwMaWbXhNy9pQ==
   dependencies:
     chalk "^4.1.0"
     enhanced-resolve "^5.0.0"
@@ -5880,19 +5893,21 @@ ts-loader@^9.2.4:
     semver "^7.3.4"
 
 "ts-node@>= 8.3.0":
-  version "10.1.0"
-  resolved "https://hikick-547032093617.d.codeartifact.ap-northeast-1.amazonaws.com:443/npm/hikick/ts-node/-/ts-node-10.1.0.tgz#e656d8ad3b61106938a867f69c39a8ba6efc966e"
-  integrity sha512-6szn3+J9WyG2hE+5W8e0ruZrzyk1uFLYye6IGMBadnOzDh8aP7t8CbFpsfCiEx2+wMixAhjFt7lOZC4+l+WbEA==
+  version "10.2.0"
+  resolved "https://hikick-547032093617.d.codeartifact.ap-northeast-1.amazonaws.com:443/npm/hikick/ts-node/-/ts-node-10.2.0.tgz#f1e88249a00e26aa95e9a93c50f70241a8a1c4bb"
+  integrity sha512-FstYHtQz6isj8rBtYMN4bZdnXN1vq4HCbqn9vdNQcInRqtB86PePJQIxE6es0PhxKWhj2PHuwbG40H+bxkZPmg==
   dependencies:
+    "@cspotcode/source-map-support" "0.6.1"
     "@tsconfig/node10" "^1.0.7"
     "@tsconfig/node12" "^1.0.7"
     "@tsconfig/node14" "^1.0.0"
-    "@tsconfig/node16" "^1.0.1"
+    "@tsconfig/node16" "^1.0.2"
+    acorn "^8.4.1"
+    acorn-walk "^8.1.1"
     arg "^4.1.0"
     create-require "^1.1.0"
     diff "^4.0.1"
     make-error "^1.1.1"
-    source-map-support "^0.5.17"
     yn "3.1.1"
 
 tslib@^1.8.1, tslib@^1.9.0:
@@ -6082,18 +6097,15 @@ webpack-node-externals@^3.0.0:
   resolved "https://hikick-547032093617.d.codeartifact.ap-northeast-1.amazonaws.com:443/npm/hikick/webpack-node-externals/-/webpack-node-externals-3.0.0.tgz#1a3407c158d547a9feb4229a9e3385b7b60c9917"
   integrity sha512-LnL6Z3GGDPht/AigwRh2dvL9PQPFQ8skEpVrWZXLWBYmqcaojHNN0onvHzie6rq7EWKrrBfPYqNEzTJgiwEQDQ==
 
-webpack-sources@^2.3.1:
-  version "2.3.1"
-  resolved "https://hikick-547032093617.d.codeartifact.ap-northeast-1.amazonaws.com:443/npm/hikick/webpack-sources/-/webpack-sources-2.3.1.tgz#570de0af163949fe272233c2cefe1b56f74511fd"
-  integrity sha512-y9EI9AO42JjEcrTJFOYmVywVZdKVUfOvDUPsJea5GIr1JOEGFVqwlY2K098fFoIjOkDzHn2AjRvM8dsBZu+gCA==
-  dependencies:
-    source-list-map "^2.0.1"
-    source-map "^0.6.1"
+webpack-sources@^3.2.0:
+  version "3.2.0"
+  resolved "https://hikick-547032093617.d.codeartifact.ap-northeast-1.amazonaws.com:443/npm/hikick/webpack-sources/-/webpack-sources-3.2.0.tgz#b16973bcf844ebcdb3afde32eda1c04d0b90f89d"
+  integrity sha512-fahN08Et7P9trej8xz/Z7eRu8ltyiygEo/hnRi9KqBUs80KeDcnf96ZJo++ewWd84fEf3xSX9bp4ZS9hbw0OBw==
 
-webpack@^5.46.0:
-  version "5.46.0"
-  resolved "https://hikick-547032093617.d.codeartifact.ap-northeast-1.amazonaws.com:443/npm/hikick/webpack/-/webpack-5.46.0.tgz#105d20d96f79db59b316b0ae54316f0f630314b5"
-  integrity sha512-qxD0t/KTedJbpcXUmvMxY5PUvXDbF8LsThCzqomeGaDlCA6k998D8yYVwZMvO8sSM3BTEOaD4uzFniwpHaTIJw==
+webpack@^5.49.0:
+  version "5.49.0"
+  resolved "https://hikick-547032093617.d.codeartifact.ap-northeast-1.amazonaws.com:443/npm/hikick/webpack/-/webpack-5.49.0.tgz#e250362b781a9fb614ba0a97ed67c66b9c5310cd"
+  integrity sha512-XarsANVf28A7Q3KPxSnX80EkCcuOer5hTOEJWJNvbskOZ+EK3pobHarGHceyUZMxpsTHBHhlV7hiQyLZzGosYw==
   dependencies:
     "@types/eslint-scope" "^3.7.0"
     "@types/estree" "^0.0.50"
@@ -6101,6 +6113,7 @@ webpack@^5.46.0:
     "@webassemblyjs/wasm-edit" "1.11.1"
     "@webassemblyjs/wasm-parser" "1.11.1"
     acorn "^8.4.1"
+    acorn-import-assertions "^1.7.6"
     browserslist "^4.14.5"
     chrome-trace-event "^1.0.2"
     enhanced-resolve "^5.8.0"
@@ -6117,7 +6130,7 @@ webpack@^5.46.0:
     tapable "^2.1.1"
     terser-webpack-plugin "^5.1.3"
     watchpack "^2.2.0"
-    webpack-sources "^2.3.1"
+    webpack-sources "^3.2.0"
 
 websocket-driver@>=0.5.1:
   version "0.7.4"
@@ -6242,7 +6255,7 @@ write-file-atomic@^3.0.0, write-file-atomic@^3.0.3:
     signal-exit "^3.0.2"
     typedarray-to-buffer "^3.1.5"
 
-ws@^7.3.1, ws@^7.4.6:
+ws@^7.3.1, ws@^7.5.3:
   version "7.5.3"
   resolved "https://hikick-547032093617.d.codeartifact.ap-northeast-1.amazonaws.com:443/npm/hikick/ws/-/ws-7.5.3.tgz#160835b63c7d97bfab418fc1b8a9fced2ac01a74"
   integrity sha512-kQ/dHIzuLrS6Je9+uv81ueZomEwH0qVYstcAQ4/Z93K8zeko9gtAbttJWzoC5ukqXY1PpoouV3+VSOqEAFt5wg==
