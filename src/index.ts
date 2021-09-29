@@ -54,7 +54,7 @@ export const handler: Handler = async (event, context) => {
       }
 
       duplicateCode.push(kickboardCode);
-      const kickboard = await kickboards.find(
+      const kickboard = kickboards.find(
         (e) => e.kickboardCode === kickboardCode
       );
 

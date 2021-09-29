@@ -1,5 +1,5 @@
 service: 'kickboard-sync'
-useDotenv: false
+useDotenv: true
 
 provider:
   name: aws
