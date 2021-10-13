@@ -16,7 +16,7 @@ export * from './tools';
 
 export const handler: Handler = async (event, context) => {
   const startTime = Date.now();
-  logger.info('[시스템] 시스템을 활성화하고 있습니다.');
+  logger.info('시스템 / 시스템을 활성화하고 있습니다.');
   const [kickboardDocs, kickboards, regionId, franchiseId] = await Promise.all([
     firestore.collection('kick').orderBy('last_update', 'desc').get(),
     KickboardModel.find(),
@@ -26,11 +26,11 @@ export const handler: Handler = async (event, context) => {
   ]);
 
   logger.info(
-    `[킥보드] 파이어베이스 킥보드 갯수는 총 ${kickboardDocs.size}개 입니다.`
+    `킥보드 / 파이어베이스 킥보드 갯수는 총 ${kickboardDocs.size}개 입니다.`
   );
 
   logger.info(
-    `[킥보드] 몽고디비 킥보드 갯수는 총 ${kickboards.length}개 입니다.`
+    `킥보드 / 몽고디비 킥보드 갯수는 총 ${kickboards.length}개 입니다.`
   );
 
   const duplicateCode: string[] = [];
@@ -44,12 +44,12 @@ export const handler: Handler = async (event, context) => {
       } = kickboardDoc.data();
       const displayName = `${kickboardCode}(${kickboardId})`;
       if (kickboardCode.length !== 6) {
-        logger.warn(`[킥보드] ${displayName} 올바르지 않은 킥보드 코드입니다.`);
+        logger.warn(`킥보드 / ${displayName} 올바르지 않은 킥보드 코드입니다.`);
         return;
       }
 
       if (duplicateCode.includes(kickboardCode)) {
-        logger.warn(`[킥보드] ${displayName} 이미 처리된 킥보드 코드입니다.`);
+        logger.warn(`킥보드 / ${displayName} 이미 처리된 킥보드 코드입니다.`);
         return;
       }
 
@@ -68,22 +68,34 @@ export const handler: Handler = async (event, context) => {
           KickboardMode.DISABLED,
         ];
 
-        if (kickboard.mode === mode || bypassMode.includes(kickboard.mode))
-          return;
+        if (kickboard.kickboardId !== kickboardId) {
+          kickboard.kickboardId = kickboardId;
+          const changed = kickboard.kickboardId + ' -> ' + kickboardId;
+          logger.info(
+            `킥보드 / ${displayName} 킥보드의 IMEI 값이 변경되었습니다. (${changed})`
+          );
 
-        const changed =
-          KickboardMode[kickboard.mode] + ' -> ' + KickboardMode[mode];
-        logger.info(
-          `[킥보드] ${displayName} 이미 존재하여 상태만 변경하였습니다. (${changed})`
-        );
+          await Webhook.send(
+            `킥보드 / ${displayName} 킥보드의 IMEI 값이 변경되었습니다. (${changed})`
+          );
+        }
 
+        if (kickboard.mode !== mode && !bypassMode.includes(kickboard.mode)) {
+          const changed =
+            KickboardMode[kickboard.mode] + ' -> ' + KickboardMode[mode];
+          logger.info(
+            `킥보드 / ${displayName} 이미 존재하여 상태만 변경하였습니다. (${changed})`
+          );
+        }
+
+        if (!kickboard.franchiseId) kickboard.franchiseId = franchiseId;
         if (!kickboard.regionId) kickboard.regionId = regionId;
         kickboard.mode = mode;
         await kickboard.save();
         return;
       }
 
-      logger.info(`[킥보드] ${displayName} 킥보드를 생성하였습니다.`);
+      logger.info(`킥보드 / ${displayName} 킥보드를 생성하였습니다.`);
       await KickboardModel.create({
         kickboardId,
         kickboardCode,
@@ -97,16 +109,14 @@ export const handler: Handler = async (event, context) => {
         disconnectedAt: null,
       });
 
-      await Webhook.send(
-        `[파이어베이스 싱크] ${displayName} 킥보드를 생성하였습니다.`
-      );
+      await Webhook.send(`킥보드 / ${displayName} 킥보드를 생성하였습니다.`);
     };
   });
 
   while (functions.length)
     await Promise.all(functions.splice(0, 50).map((f) => f()));
   const processTime = `${(Date.now() - startTime).toLocaleString()}ms`;
-  logger.info(`[시스템] 시스템 처리가 완료되었습니다. ${processTime}`);
+  logger.info(`시스템 / 시스템 처리가 완료되었습니다. ${processTime}`);
 };
 
 async function getFranchiseId(): Promise<string> {
@@ -123,7 +133,7 @@ async function getFranchiseId(): Promise<string> {
   }
 
   const { franchiseId } = franchise;
-  logger.info(`[프렌차이즈] 기본 프렌차이즈 ID: ${franchiseId}`);
+  logger.info(`프렌차이즈 / 기본 프렌차이즈 ID: ${franchiseId}`);
   return franchiseId;
 }
 
@@ -141,6 +151,6 @@ async function getRegionId(): Promise<string> {
   }
 
   const { regionId } = region;
-  logger.info(`[프렌차이즈] 기본 미운영 지역 ID: ${regionId}`);
+  logger.info(`프렌차이즈 / 기본 미운영 지역 ID: ${regionId}`);
   return regionId;
 }
