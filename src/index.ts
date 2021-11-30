@@ -14,7 +14,7 @@ import { Webhook } from './tools';
 export * from './models';
 export * from './tools';
 
-export const handler: Handler = async (event, context) => {
+export const handler: Handler = async () => {
   const startTime = Date.now();
   logger.info('시스템 / 시스템을 활성화하고 있습니다.');
   const [kickboardDocs, kickboards, regionId, franchiseId] = await Promise.all([
@@ -121,15 +121,15 @@ export const handler: Handler = async (event, context) => {
 
 async function getFranchiseId(): Promise<string> {
   const franchiseClient = InternalClient.getFranchise([
-    FranchisePermission.FRANCHISES_LIST,
+    FranchisePermission.FRANCHISE_LIST,
   ]);
 
   const franchise = await franchiseClient
-    .getFranchises({ take: 1, search: '본사' })
+    .getFranchises({ take: 1, search: '미지정' })
     .then((e) => e.franchises[0]);
 
   if (!franchise) {
-    throw new InternalError('본사 프렌차이즈를 찾을 수 없습니다.');
+    throw new InternalError('미지정 프렌차이즈를 찾을 수 없습니다.');
   }
 
   const { franchiseId } = franchise;
@@ -139,7 +139,7 @@ async function getFranchiseId(): Promise<string> {
 
 async function getRegionId(): Promise<string> {
   const locationClient = InternalClient.getLocation([
-    LocationPermission.REGIONS_LIST,
+    LocationPermission.LOCATION_REGION_LIST,
   ]);
 
   const region = await locationClient
