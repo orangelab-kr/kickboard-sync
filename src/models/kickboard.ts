@@ -25,6 +25,7 @@ export enum KickboardMode {
   COLLECTED = 3,
   UNREGISTERED = 4,
   DISABLED = 5,
+  MYKICK = 6,
 }
 
 export enum KickboardLost {

@@ -66,6 +66,7 @@ export const handler: Handler = async () => {
           KickboardMode.UNREGISTERED,
           KickboardMode.BROKEN,
           KickboardMode.DISABLED,
+          KickboardMode.MYKICK,
         ];
 
         if (kickboard.kickboardId !== kickboardId) {
@@ -90,7 +91,7 @@ export const handler: Handler = async () => {
 
         if (!kickboard.franchiseId) kickboard.franchiseId = franchiseId;
         if (!kickboard.regionId) kickboard.regionId = regionId;
-        kickboard.mode = mode;
+        if (!bypassMode.includes(kickboard.mode)) kickboard.mode = mode;
         await kickboard.save();
         return;
       }
