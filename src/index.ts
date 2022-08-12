@@ -1,10 +1,12 @@
+import {
+  FranchisePermission,
+  LocationPermission,
+} from '@hikick/openapi-internal-sdk';
 import { Handler } from 'aws-lambda';
-import { FranchisePermission, LocationPermission } from 'openapi-internal-sdk';
 import {
   firestore,
   InternalClient,
   InternalError,
-  KickboardMode,
   KickboardModel,
   logger,
   MongoDB,
@@ -58,17 +60,7 @@ export const handler: Handler = async () => {
         (e) => e.kickboardCode === kickboardCode
       );
 
-      let mode = KickboardMode.READY;
-      if (!canRide) mode = KickboardMode.INUSE;
-      if (!deploy) mode = KickboardMode.COLLECTED;
       if (kickboard) {
-        const bypassMode = [
-          KickboardMode.UNREGISTERED,
-          KickboardMode.BROKEN,
-          KickboardMode.DISABLED,
-          KickboardMode.MYKICK,
-        ];
-
         if (kickboard.kickboardId !== kickboardId) {
           kickboard.kickboardId = kickboardId;
           const changed = kickboard.kickboardId + ' -> ' + kickboardId;
@@ -81,17 +73,8 @@ export const handler: Handler = async () => {
           );
         }
 
-        if (kickboard.mode !== mode && !bypassMode.includes(kickboard.mode)) {
-          const changed =
-            KickboardMode[kickboard.mode] + ' -> ' + KickboardMode[mode];
-          logger.info(
-            `킥보드 / ${displayName} 이미 존재하여 상태만 변경하였습니다. (${changed})`
-          );
-        }
-
         if (!kickboard.franchiseId) kickboard.franchiseId = franchiseId;
         if (!kickboard.regionId) kickboard.regionId = regionId;
-        if (!bypassMode.includes(kickboard.mode)) kickboard.mode = mode;
         await kickboard.save();
         return;
       }
@@ -102,7 +85,6 @@ export const handler: Handler = async () => {
         kickboardCode,
         franchiseId,
         regionId,
-        mode,
         lost: null,
         helmetId: null,
         maxSpeed: null,

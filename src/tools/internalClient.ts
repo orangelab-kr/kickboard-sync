@@ -13,7 +13,7 @@ import {
   LocationPermission,
   PlatformPermission,
   WebhookPermission,
-} from 'openapi-internal-sdk';
+} from '@hikick/openapi-internal-sdk';
 
 export class InternalClient {
   public static getDiscount(
