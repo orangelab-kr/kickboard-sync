@@ -5,12 +5,12 @@ provider:
   name: aws
   runtime: nodejs14.x
   region: ap-northeast-2
-  stage: prod
-  lambdaHashingVersion: '20201221'
+  stage: stage
+  timeout: 16
 
 plugins:
   - serverless-webpack
-  - serverless-dotenv-plugin
+  - serverless-doppler
 
 custom:
   webpack:
